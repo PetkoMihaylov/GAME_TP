@@ -9,6 +9,7 @@
     <sprite>sprites\hero</sprite>
     <sprite>sprites\coins</sprite>
     <sprite>sprites\ground</sprite>
+    <sprite>sprites\door</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -21,6 +22,7 @@
     <object>objects\options</object>
     <object>objects\coin</object>
     <object>objects\gameover</object>
+    <object>objects\obj_door</object>
     <object>objects\score</object>
     <object>objects\character</object>
     <object>objects\obj_wall</object>
