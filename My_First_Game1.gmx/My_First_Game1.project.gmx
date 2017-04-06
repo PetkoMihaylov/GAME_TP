@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\hero</sprite>
+    <sprite>sprites\coins</sprite>
     <sprite>sprites\ground</sprite>
   </sprites>
   <backgrounds name="background">
@@ -18,8 +19,9 @@
   </fonts>
   <objects name="objects">
     <object>objects\options</object>
+    <object>objects\coin</object>
     <object>objects\gameover</object>
-    <object>objects\live</object>
+    <object>objects\score</object>
     <object>objects\character</object>
     <object>objects\obj_wall</object>
   </objects>
