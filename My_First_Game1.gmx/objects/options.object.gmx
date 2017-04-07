@@ -27,10 +27,10 @@
             <kind>1</kind>
             <string>if window_get_fullscreen()
    {
-   draw_text(32, 32, "Fullscreen is ON");
+   window_set_fullscreen(false);
    }
 else    {
-   draw_text(32, 32, "Fullscreen is OFF");
+   window_set_fullscreen(true);
    }
 </string>
           </argument>

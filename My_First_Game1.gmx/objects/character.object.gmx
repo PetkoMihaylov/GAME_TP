@@ -30,6 +30,7 @@ hsp = 0;
 vsp = 0;
 jumpspeed = 7;
 movespeed = 4;
+global.win = 0;
 </string>
           </argument>
         </arguments>
@@ -93,6 +94,30 @@ y += vsp;
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_door">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.win = 1;
+instance_create(0,0,gameend);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="coin">
       <action>
         <libid>1</libid>
@@ -111,6 +136,8 @@ y += vsp;
           <argument>
             <kind>1</kind>
             <string>global.points+=50;
+if global.points == 1400
+instance_create(1088, 288, obj_door);
 </string>
           </argument>
         </arguments>
@@ -148,7 +175,7 @@ y += vsp;
           <argument>
             <kind>1</kind>
             <string>//room_restart();
-instance_create(0,0,gameover);
+instance_create(0,0,gameend);
 
 
 </string>

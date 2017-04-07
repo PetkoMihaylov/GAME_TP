@@ -21,7 +21,7 @@
   <objects name="objects">
     <object>objects\options</object>
     <object>objects\coin</object>
-    <object>objects\gameover</object>
+    <object>objects\gameend</object>
     <object>objects\obj_door</object>
     <object>objects\score</object>
     <object>objects\character</object>
