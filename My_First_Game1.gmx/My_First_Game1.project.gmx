@@ -43,7 +43,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\bvm\AppData\Local\gamemaker_studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>1</TutorialPage>
   </TutorialState>
