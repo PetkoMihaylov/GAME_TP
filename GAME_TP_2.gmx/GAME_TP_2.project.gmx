@@ -23,6 +23,8 @@
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\spr_enemy_slime</sprite>
+      <sprite>sprites\spr_enemy_slime_2</sprite>
+      <sprite>sprites\spr_enemy_slime_boss</sprite>
     </sprites>
     <sprites name="Surrounding_objects">
       <sprite>sprites\spr_wall</sprite>
@@ -35,16 +37,34 @@
       <sprite>sprites\spr_player2_right</sprite>
       <sprite>sprites\spr_player2_down</sprite>
       <sprite>sprites\spr_player2_up</sprite>
+      <sprite>sprites\spr_player3_down</sprite>
+      <sprite>sprites\spr_player3_up</sprite>
+      <sprite>sprites\spr_player3_right</sprite>
+      <sprite>sprites\spr_player3_left</sprite>
+      <sprite>sprites\spr_player4_down</sprite>
+      <sprite>sprites\spr_player4_left</sprite>
+      <sprite>sprites\spr_player2_attack_down</sprite>
+      <sprite>sprites\sprite28</sprite>
+      <sprite>sprites\sprite29</sprite>
+      <sprite>sprites\sprite30</sprite>
+      <sprite>sprites\sprite31</sprite>
+      <sprite>sprites\sprite32</sprite>
+      <sprite>sprites\sprite33</sprite>
+      <sprite>sprites\sprite34</sprite>
+      <sprite>sprites\sprite35</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
+    <background>background\bg_white_bricks</background>
+    <background>background\bg_grass_2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Helper Scripts">
       <script>scripts\scr_get_input.gml</script>
       <script>scripts\scr_get_face.gml</script>
+      <script>scripts\scr_chance.gml</script>
     </scripts>
     <scripts name="Player_States">
       <script>scripts\scr_move_state.gml</script>
@@ -61,18 +81,21 @@
       <script>scripts\scr_enemy_wander_state.gml</script>
       <script>scripts\scr_enemy_chase_state.gml</script>
     </scripts>
-    <script>scripts\scr_chance.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_lifeform_parent</object>
     <object>objects\obj_player</object>
+    <object>objects\object11</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_view</object>
     <object>objects\obj_dash_effect</object>
     <object>objects\obj_enemy_slime</object>
+    <object>objects\obj_enemy_slime_2</object>
+    <object>objects\obj_enemy_slime_boss</object>
     <object>objects\obj_damage</object>
     <object>objects\obj_player_stats</object>
     <object>objects\obj_expr</object>
+    <object>objects\obj_health</object>
     <object>objects\obj_door</object>
   </objects>
   <rooms name="rooms">

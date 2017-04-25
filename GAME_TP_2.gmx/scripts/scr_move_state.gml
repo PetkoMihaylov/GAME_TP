@@ -70,5 +70,3 @@ switch (face)
         sprite_index = spr_player_down;
             break;
 }
-
-
