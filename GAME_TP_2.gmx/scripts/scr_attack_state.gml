@@ -66,4 +66,3 @@ if (image_index >=3 and attacking == false)
     attacking = true;
 }
 
-
