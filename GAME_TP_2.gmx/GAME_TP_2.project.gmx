@@ -203,14 +203,21 @@
     <object>objects\obj_expr</object>
     <object>objects\obj_health</object>
     <objects name="menu">
+      <object>objects\play_object</object>
       <object>objects\start_object</object>
+      <object>objects\back_object</object>
       <object>objects\Exit_object</object>
     </objects>
     <object>objects\obj_door</object>
+    <objects name="character_select">
+      <object>objects\char1_select</object>
+      <object>objects\object17</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>
     <room>rooms\rm_one</room>
+    <room>rooms\character_select</room>
     <room>rooms\rm_two</room>
   </rooms>
   <help>
