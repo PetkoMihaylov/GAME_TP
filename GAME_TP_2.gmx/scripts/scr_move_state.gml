@@ -55,18 +55,41 @@ if(len == 0)
 
 // remove - scr_get_face(); add_to else
 
-switch (face)
+if(global.select = 1)
 {
-    case RIGHT:
-        sprite_index = spr_player_right;
-            break;
-    case LEFT:
-        sprite_index = spr_player_left;
-            break;
-    case UP:
-        sprite_index = spr_player_up;
-            break;
-    case DOWN:
-        sprite_index = spr_player_down;
-            break;
+    switch (face)
+    {
+        case RIGHT:
+            sprite_index = spr_player_right;
+                break;
+        case LEFT:
+            sprite_index = spr_player_left;
+                break;
+        case UP:
+            sprite_index = spr_player_up;
+                break;
+        case DOWN:
+            sprite_index = spr_player_down;
+                break;
+    }
+}
+
+
+if(global.select = 2)
+{
+    switch (face)
+    {
+        case RIGHT:
+            sprite_index = spr_player2_right;
+                break;
+        case LEFT:
+            sprite_index = spr_player2_left;
+                break;
+        case UP:
+            sprite_index = spr_player2_up;
+                break;
+        case DOWN:
+            sprite_index = spr_player2_down;
+                break;
+    }
 }

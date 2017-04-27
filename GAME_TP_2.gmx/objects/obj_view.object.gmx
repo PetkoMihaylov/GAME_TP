@@ -26,10 +26,22 @@
           <argument>
             <kind>1</kind>
             <string>///Move  to player
-if(instance_exists(obj_player))
+if(global.select = 1)
 {
-    x = obj_player.x;
-    y = obj_player.y;
+    if(instance_exists(obj_player))
+    {
+        x = obj_player.x;
+        y = obj_player.y;
+    }
+}
+
+if(global.select = 2)
+{
+    if(instance_exists(object11))
+    {
+        x = object11.x;
+        y = object11.y;
+    }
 }
 </string>
           </argument>

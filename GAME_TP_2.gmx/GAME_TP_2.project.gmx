@@ -192,6 +192,7 @@
     <object>objects\obj_lifeform_parent</object>
     <object>objects\obj_player</object>
     <object>objects\object11</object>
+    <object>objects\object11_no</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_view</object>
     <object>objects\obj_dash_effect</object>
