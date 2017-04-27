@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Move  to player
-if(global.select = 1)
+if(global.select == 1)
 {
     if(instance_exists(obj_player))
     {
@@ -35,7 +35,7 @@ if(global.select = 1)
     }
 }
 
-if(global.select = 2)
+if(global.select == 2)
 {
     if(instance_exists(object11))
     {
@@ -74,6 +74,12 @@ if(instance_exists(obj_player))
 //current_location += (target - current_location) * .1;
 x += (obj_player.x - x) * .3;
 y += (obj_player.y - y) * .3;
+}
+
+if(instance_exists(object11))
+{
+    x += (object11.x - x) * .3;
+    y += (object11.y - y) * .3;
 }
 
 </string>

@@ -57,6 +57,7 @@
     </sprites>
     <sprites name="menu">
       <sprite>sprites\sprite37</sprite>
+      <sprite>sprites\sprite137</sprite>
     </sprites>
     <sprites name="ICONS">
       <sprite>sprites\spr_1player</sprite>
@@ -211,6 +212,8 @@
     </objects>
     <object>objects\obj_door</object>
     <objects name="character_select">
+      <object>objects\object21</object>
+      <object>objects\char_selected</object>
       <object>objects\char1_select</object>
       <object>objects\object17</object>
     </objects>
