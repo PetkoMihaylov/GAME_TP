@@ -39,6 +39,7 @@
       <sprite>sprites\spr_player2_right</sprite>
       <sprite>sprites\spr_player2_down</sprite>
       <sprite>sprites\spr_player2_up</sprite>
+      <sprite>sprites\spr_player2_up_NO</sprite>
       <sprite>sprites\spr_player3_down</sprite>
       <sprite>sprites\spr_player3_up</sprite>
       <sprite>sprites\spr_player3_right</sprite>
@@ -46,11 +47,14 @@
       <sprite>sprites\spr_player4_down</sprite>
       <sprite>sprites\spr_player4_left</sprite>
       <sprite>sprites\spr_player2_attack_down</sprite>
-      <sprite>sprites\sprite28</sprite>
+      <sprite>sprites\spr_player2_attack_left</sprite>
+      <sprite>sprites\spr_player2_attack_right</sprite>
+      <sprite>sprites\spr_player2_attack_up</sprite>
       <sprite>sprites\sprite29</sprite>
       <sprite>sprites\sprite30</sprite>
       <sprite>sprites\sprite31</sprite>
       <sprite>sprites\sprite32</sprite>
+      <sprite>sprites\sprite28</sprite>
       <sprite>sprites\sprite33</sprite>
       <sprite>sprites\sprite34</sprite>
       <sprite>sprites\sprite35</sprite>
@@ -160,6 +164,7 @@
       <sprite>sprites\spr_yes</sprite>
       <sprite>sprites\spr_youtube</sprite>
     </sprites>
+    <sprite>sprites\sprite138</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -219,6 +224,7 @@
       <object>objects\char1_select</object>
       <object>objects\object17</object>
     </objects>
+    <object>objects\object25</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>
