@@ -207,6 +207,8 @@
     <objects name="menu">
       <object>objects\play_object</object>
       <object>objects\start_object</object>
+      <object>objects\pause_object</object>
+      <object>objects\resume_object</object>
       <object>objects\back_object</object>
       <object>objects\Exit_object</object>
     </objects>
@@ -222,6 +224,7 @@
     <room>rooms\room_menu</room>
     <room>rooms\rm_one</room>
     <room>rooms\character_select</room>
+    <room>rooms\ingame_menu</room>
     <room>rooms\rm_two</room>
   </rooms>
   <help>

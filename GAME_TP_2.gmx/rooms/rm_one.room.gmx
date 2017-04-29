@@ -10,10 +10,13 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>if(global.select == 1)
+  <code>if(global.select == 1 &amp;&amp; global.create_char = 1)
     instance_create(256, 96,obj_player);
-if(global.select == 2)
-    instance_create(256, 96,object11);</code>
+if(global.select == 2 &amp;&amp; global.create_char = 1)
+    instance_create(256, 96,object11);
+
+global.create_char = 0;
+//room_restart();</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -90,6 +93,7 @@ if(global.select == 2)
     <instance objName="obj_enemy_slime_2" x="128" y="256" name="inst_C5108302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime_2" x="288" y="224" name="inst_DB49EAA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime_2" x="320" y="64" name="inst_1EFC0639" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="pause_object" x="128" y="64" name="inst_5656D1B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

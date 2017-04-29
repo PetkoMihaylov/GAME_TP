@@ -43,6 +43,12 @@ if(global.select == 2)
         y = object11.y;
     }
 }
+
+/*if(global.restart == 1)
+{
+    room_restart();
+    global.restart = 0;
+}*/
 </string>
           </argument>
         </arguments>

@@ -104,7 +104,7 @@ state = scr_move_state;
             <string>/// Step event for Movement
 // //scr_move_state();
 //event_inherited();
-
+if(global.pause) exit;
 depth = -y;
 
 script_execute(state);
@@ -276,6 +276,7 @@ if(state == scr_attack_state)
           <argument>
             <kind>1</kind>
             <string>///Set fixed rotation
+if(global.pause) exit;
 phy_fixed_rotation = true;
 </string>
           </argument>
