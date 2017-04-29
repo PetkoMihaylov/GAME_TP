@@ -117,8 +117,13 @@ if(stamina &lt; maxstamina and alarm[0] == -1)
           <argument>
             <kind>1</kind>
             <string>/// Draw the stats
+//draw_set_colour(c_white);
+//draw_rectangle(0, 0, 200, 100, false);
+draw_set_colour(c_green);
 draw_text(32, 16, "Health:" + string(hp) + "/" + string(maxhp) );
+draw_set_colour(c_blue);
 draw_text(32, 32, "Stamina:" + string(stamina) + "/" + string(maxstamina) );
+draw_set_colour(c_white);
 draw_text(32, 48, "Level:" + string(level) );
 </string>
           </argument>
