@@ -65,4 +65,3 @@ if (image_index >=3 and attacking == false)
     damage.damage = obj_player_stats.attack;
     attacking = true;
 }
-

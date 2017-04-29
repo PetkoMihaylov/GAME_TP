@@ -35,9 +35,9 @@
     <sprite>sprites\spr_damage</sprite>
     <sprite>sprites\spr_expr</sprite>
     <sprites name="TestSprites">
+      <sprite>sprites\spr_player2_down</sprite>
       <sprite>sprites\spr_player2_left</sprite>
       <sprite>sprites\spr_player2_right</sprite>
-      <sprite>sprites\spr_player2_down</sprite>
       <sprite>sprites\spr_player2_up</sprite>
       <sprite>sprites\spr_player2_up_NO</sprite>
       <sprite>sprites\spr_player3_down</sprite>
@@ -224,7 +224,6 @@
       <object>objects\char1_select</object>
       <object>objects\object17</object>
     </objects>
-    <object>objects\object25</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>
