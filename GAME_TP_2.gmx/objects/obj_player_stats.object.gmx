@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Initialize the stats of the player
 
-hp = 5;
+hp = 15;
 maxhp = hp;
 stamina = 10;
 maxstamina = stamina;
