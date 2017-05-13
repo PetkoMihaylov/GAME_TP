@@ -168,6 +168,10 @@
       <sprite>sprites\sprite143</sprite>
     </sprites>
     <sprite>sprites\sprite138</sprite>
+    <sprite>sprites\sprite144</sprite>
+    <sprites name="dead_screen">
+      <sprite>sprites\sprite145</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -215,9 +219,12 @@
     <objects name="menu">
       <object>objects\play_object</object>
       <object>objects\start_object</object>
+      <object>objects\restart_object</object>
       <object>objects\cursor_object</object>
+      <object>objects\dead_screen</object>
       <object>objects\pause_object</object>
       <object>objects\resume_object</object>
+      <object>objects\gameend_object</object>
       <object>objects\back_object</object>
       <object>objects\Exit_object</object>
     </objects>
@@ -231,6 +238,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>
+    <room>rooms\dead_room</room>
     <room>rooms\rm_one</room>
     <room>rooms\character_select</room>
     <room>rooms\ingame_menu</room>
