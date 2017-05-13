@@ -164,6 +164,9 @@
       <sprite>sprites\spr_yes</sprite>
       <sprite>sprites\spr_youtube</sprite>
     </sprites>
+    <sprites name="cursor">
+      <sprite>sprites\sprite143</sprite>
+    </sprites>
     <sprite>sprites\sprite138</sprite>
   </sprites>
   <backgrounds name="background">
@@ -212,6 +215,7 @@
     <objects name="menu">
       <object>objects\play_object</object>
       <object>objects\start_object</object>
+      <object>objects\cursor_object</object>
       <object>objects\pause_object</object>
       <object>objects\resume_object</object>
       <object>objects\back_object</object>

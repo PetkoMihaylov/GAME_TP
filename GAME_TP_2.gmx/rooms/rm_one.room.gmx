@@ -94,6 +94,7 @@ global.create_char = 0;
     <instance objName="obj_enemy_slime_2" x="288" y="224" name="inst_DB49EAA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime_2" x="320" y="64" name="inst_1EFC0639" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="pause_object" x="128" y="64" name="inst_5656D1B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cursor_object" x="32" y="32" name="inst_A38A3700" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

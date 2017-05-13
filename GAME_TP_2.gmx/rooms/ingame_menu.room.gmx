@@ -55,6 +55,7 @@ instance_activate_object(back_object);*/</code>
   <instances>
     <instance objName="resume_object" x="448" y="128" name="inst_07BBBFE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="back_object" x="448" y="480" name="inst_FE3FDDB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cursor_object" x="0" y="0" name="inst_769851E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
