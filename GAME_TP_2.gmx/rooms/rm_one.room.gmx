@@ -15,8 +15,7 @@
 if(global.select == 2 &amp;&amp; global.create_char = 1)
     instance_create(256, 96,object11);
 
-global.create_char = 0;
-//room_restart();</code>
+global.create_char = 0;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
