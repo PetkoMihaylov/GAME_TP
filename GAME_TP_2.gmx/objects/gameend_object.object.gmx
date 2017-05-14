@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>if (global.destroyed == true)
 {
-    room_goto();
+    room_goto(dead_room);
 }
 </string>
           </argument>
