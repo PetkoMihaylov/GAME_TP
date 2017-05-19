@@ -172,6 +172,12 @@
     <sprites name="dead_screen">
       <sprite>sprites\sprite145</sprite>
     </sprites>
+    <sprites name="health">
+      <sprite>sprites\health_border</sprite>
+      <sprite>sprites\stamina_border</sprite>
+      <sprite>sprites\health_inner</sprite>
+      <sprite>sprites\stamina_inner</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>

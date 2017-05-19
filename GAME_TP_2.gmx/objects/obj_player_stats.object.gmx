@@ -119,12 +119,17 @@ if(stamina &lt; maxstamina and alarm[0] == -1)
             <string>/// Draw the stats
 //draw_set_colour(c_white);
 //draw_rectangle(0, 0, 200, 100, false);
-draw_set_colour(c_green);
-draw_text(32, 16, "Health:" + string(hp) + "/" + string(maxhp) );
-draw_set_colour(c_blue);
-draw_text(32, 32, "Stamina:" + string(stamina) + "/" + string(maxstamina) );
+draw_sprite_ext(health_border, 0, 32, 16, 0.5, 1, 0, c_white, 1);
+draw_sprite_ext(health_inner, 0, 32, 16, 0.5*hp/maxhp, 1, 0, c_white, 1);
 draw_set_colour(c_white);
-draw_text(32, 48, "Level:" + string(level) );
+draw_text(82, 17, "Health:" + string(hp) + "/" + string(maxhp) );
+
+draw_sprite_ext(stamina_border, 0, 32, 36, 0.5, 1, 0, c_white, 1);
+draw_sprite_ext(stamina_inner, 0, 32, 36, 0.5*stamina/maxstamina, 1, 0, c_white, 1);
+
+draw_text(82, 37, "Stamina:" + string(stamina) + "/" + string(maxstamina) );
+
+draw_text(32, 55, "Level:" + string(level) );
 </string>
           </argument>
         </arguments>
