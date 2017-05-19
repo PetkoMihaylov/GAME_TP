@@ -1,0 +1,841 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default.config.gmx
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/PS3/PARAM.SFO
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/PS3/icon0.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/PS3/pic1.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/ApplicationIcon.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/CycleSmall.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/CycleWide1.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/CycleWide2.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/CycleWide3.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/CycleWide4.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/CycleWide5.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/CycleWide6.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/CycleWide7.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/CycleWide8.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/CycleWide9.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/FlipMedBack.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/FlipMedFront.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/FlipSmallBack.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/FlipSmallFront.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/FlipWideBack.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/FlipWideFront.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/IconicSmall.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/IconicWide.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/SplashScreenImage.jpg
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/SplashScreenImage480.jpg
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/WinPhone/SplashScreenImage720.jpg
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/Windows8/Win8NativeRunner_TemporaryKey.pfx
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/Windows8/Windows8_TemporaryKey.pfx
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/Windows8/logos/logo150.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/Windows8/logos/logo30.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/Windows8/logos/logo310.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/Windows8/logos/logo50.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/Windows8/splashscreen.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/android/icons/icon_hdpi.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/android/icons/icon_ldpi.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/android/icons/icon_mdpi.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/android/icons/icon_xhdpi.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/android/icons/icon_xxhdpi.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/android/icons/icon_xxxhdpi.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/android/icons/ouyaIcon.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/android/splash.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/html5/fav.ico
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/html5/splash.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/IphoneRetinasplash.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/iPadRetinasplash.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/iPadsplash.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/iPhone5splash.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/iPhonesplash.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/icons/icon114.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/icons/icon120.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/icons/icon144.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/icons/icon152.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/icons/icon57.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/icons/icon72.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/icons/icon76.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/ios/splash.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/linux/icon64.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/linux/splash.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/mac/icon512.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/mac/splash.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/tizen/icon117.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/tizen/splash.png
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/windows/License.txt
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/windows/RunnerInstaller.nsi
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/windows/Runner_Icon_256.ico
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/windows/Runner_finish.bmp
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/windows/Runner_header.bmp
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/windows/runner_icon.ico
+#	new file:   GAME_TP_2.gmx - Copy/Configs/Default/windows/splash.png
+#	new file:   GAME_TP_2.gmx - Copy/GAME_TP_2.project.gmx
+#	new file:   GAME_TP_2.gmx - Copy/background/bg_grass.background.gmx
+#	new file:   GAME_TP_2.gmx - Copy/background/bg_grass_2.background.gmx
+#	new file:   GAME_TP_2.gmx - Copy/background/bg_white_bricks.background.gmx
+#	new file:   GAME_TP_2.gmx - Copy/background/images/bg_grass.png
+#	new file:   GAME_TP_2.gmx - Copy/background/images/bg_grass_2.png
+#	new file:   GAME_TP_2.gmx - Copy/background/images/bg_white_bricks.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack.extension.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_1player_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_2player_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_about_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_acheivments_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_audio_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_back_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_bestscore_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_buy_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_campaign_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_contactus_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_continue_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_controls_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_createparty_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_credits_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_customgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_deletegame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_disable_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_download_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_easy_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_enable_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_exit_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_export_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_facebook_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_forward_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_gameoptions_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_general_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_graphics_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_hard_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_help_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_highscore_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_import_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_information_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_insane_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_instagram_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_joinparty_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_keybindings_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_language_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_leaderboard_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_leaveparty_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_load_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_loadgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_login_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_logout_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_mainmenu_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_medium_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_menu_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_mods_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_moregames_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_multiplayer_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_musicoff_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_musicon_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_newgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_next_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_no_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_options_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_other_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_overview_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_pause_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_play_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_playagain_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_playgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_profile_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_quickplay_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_quit_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_quitgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_quitlevel_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_rankedgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_redo_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_removeads_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_report_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_restart_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_restartgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_resume_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_return_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_save_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_savegame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_score_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_scoreboard_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_select_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_sell_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_setting_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_sfx_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_singleplayer_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_social_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_soundeffects_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_soundoptions_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_start_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_stop_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_store_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_submitscore_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_system_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_trophies_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_tumblr_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_tutorial_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_twitter_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_undo_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_videooptions_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_yes_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/images/spr_youtube_0.png
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_1player.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_2player.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_about.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_acheivments.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_audio.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_back.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_bestscore.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_buy.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_campaign.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_contactus.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_continue.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_controls.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_createparty.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_credits.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_customgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_deletegame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_disable.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_download.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_easy.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_enable.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_exit.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_export.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_facebook.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_forward.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_gameoptions.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_general.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_graphics.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_hard.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_help.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_highscore.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_import.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_information.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_insane.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_instagram.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_joinparty.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_keybindings.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_language.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_leaderboard.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_leaveparty.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_load.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_loadgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_login.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_logout.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_mainmenu.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_medium.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_menu.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_mods.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_moregames.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_multiplayer.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_musicoff.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_musicon.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_newgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_next.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_no.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_options.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_other.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_overview.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_pause.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_play.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_playagain.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_playgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_profile.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_quickplay.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_quit.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_quitgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_quitlevel.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_rankedgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_redo.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_removeads.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_report.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_restart.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_restartgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_resume.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_return.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_save.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_savegame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_score.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_scoreboard.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_select.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_sell.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_setting.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_sfx.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_singleplayer.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_social.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_soundeffects.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_soundoptions.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_start.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_stop.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_store.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_submitscore.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_system.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_trophies.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_tumblr.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_tutorial.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_twitter.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_undo.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_videooptions.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_yes.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/Assets/Sprites/spr_youtube.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/extensions/Button Pack/yymanifest.xml
+#	new file:   GAME_TP_2.gmx - Copy/extensions/yymanifest.xml
+#	new file:   GAME_TP_2.gmx - Copy/fonts/level_font.font.gmx
+#	new file:   GAME_TP_2.gmx - Copy/fonts/level_font.png
+#	new file:   GAME_TP_2.gmx - Copy/help.rtf
+#	new file:   GAME_TP_2.gmx - Copy/objects/Exit_object.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/back_object.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/char1_select.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/char_selected.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/cursor_object.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/dead_screen.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/gameend_object.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_damage.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_dash_effect.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_dialogue.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_door.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_enemy_slime.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_enemy_slime_2.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_enemy_slime_boss.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_expr.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_health.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_lifeform_parent.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_player.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_player_stats.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_sign.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_speaker.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_view.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/obj_wall.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/object11.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/object11_no.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/object17.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/object21.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/pause_object.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/play_object.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/restart_object.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/resume_object.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/objects/start_object.object.gmx
+#	new file:   GAME_TP_2.gmx - Copy/rooms/character_select.room.gmx
+#	new file:   GAME_TP_2.gmx - Copy/rooms/dead_room.room.gmx
+#	new file:   GAME_TP_2.gmx - Copy/rooms/ingame_menu.room.gmx
+#	new file:   GAME_TP_2.gmx - Copy/rooms/rm_one.room.gmx
+#	new file:   GAME_TP_2.gmx - Copy/rooms/rm_two.room.gmx
+#	new file:   GAME_TP_2.gmx - Copy/rooms/room_menu.room.gmx
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_attack_state.gml
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_chance.gml
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_check_for_player.gml
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_dash_state.gml
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_enemy_chase_state.gml
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_enemy_choose_next_state.gml
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_enemy_idle_state.gml
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_enemy_stall_state.gml
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_enemy_wander_state.gml
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_get_face.gml
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_get_input.gml
+#	new file:   GAME_TP_2.gmx - Copy/scripts/scr_move_state.gml
+#	new file:   GAME_TP_2.gmx - Copy/sprites/bar_border.sprite.gmx
+#	renamed:    GAME_TP_2.gmx/sprites/stamina_border.sprite.gmx -> GAME_TP_2.gmx - Copy/sprites/expr_border_sprite.sprite.gmx
+#	renamed:    GAME_TP_2.gmx/sprites/health_inner.sprite.gmx -> GAME_TP_2.gmx - Copy/sprites/expr_inner_sprite.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/bar_border_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/expr_border_sprite_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/expr_inner_sprite_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_1player_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_2player_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_about_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_acheivments_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_audio_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_back_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_back_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_bestscore_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_buy_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_campaign_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_contactus_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_continue_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_controls_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_createparty_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_credits_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_customgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_damage_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_deletegame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_dialogue_box_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_disable_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_door_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_download_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_easy_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_enable_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_enemy_slime_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_enemy_slime_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_enemy_slime_2_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_enemy_slime_2_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_enemy_slime_boss_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_enemy_slime_boss_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_enemy_slime_boss_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_enemy_slime_boss_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_enemy_slime_boss_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_enemy_slime_boss_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_exit_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_exit_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_export_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_expr_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_facebook_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_forward_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_gameoptions_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_general_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_graphics_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_hard_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_health_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_help_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_highscore_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_import_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_information_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_insane_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_instagram_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_joinparty_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_keybindings_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_language_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_leaderboard_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_leaveparty_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_load_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_loadgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_login_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_logout_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_mainmenu_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_medium_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_menu_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_mods_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_moregames_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_multiplayer_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_musicoff_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_musicon_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_newgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_next_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_no_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_options_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_other_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_overview_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_pause_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_play_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_play_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_play_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_playagain_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_down_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_down_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_down_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_down_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_down_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_left_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_left_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_left_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_left_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_left_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_right_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_right_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_right_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_right_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_right_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_up_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_up_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_up_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_up_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_up_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_attack_up_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_down_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_down_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_down_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_down_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_down_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_down_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_left_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_left_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_left_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_left_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_left_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_left_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_left_6.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_right_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_right_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_right_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_right_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_right_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_up_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_up_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_up_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_up_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_up_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_up_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_up_NO_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_up_NO_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_up_NO_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player2_up_NO_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_down_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_down_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_down_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_down_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_down_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_10.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_11.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_12.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_13.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_14.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_6.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_7.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_8.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_left_9.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_10.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_11.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_12.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_13.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_14.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_6.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_7.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_8.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_right_9.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_up_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_up_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_up_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_up_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player3_up_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player4_down_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player4_down_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player4_down_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player4_down_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player4_down_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_down_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_down_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_down_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_down_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_down_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_down_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_down_6.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_left_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_left_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_left_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_left_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_left_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_left_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_left_6.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_right_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_right_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_right_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_right_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_right_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_right_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_right_6.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_up_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_up_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_up_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_up_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_up_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_up_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_attack_up_6.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_down_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_down_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_down_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_down_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_down_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_down_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_left_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_left_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_left_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_left_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_left_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_left_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_right_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_right_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_right_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_right_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_right_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_right_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_shadow_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_shadow_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_shadow_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_shadow_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_shadow_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_shadow_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_up_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_up_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_up_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_up_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_up_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_player_up_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_playgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_profile_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_quickplay_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_quit_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_quitgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_quitlevel_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_rankedgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_redo_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_removeads_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_report_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_restart_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_restart_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_restartgame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_resume_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_resume_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_return_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_save_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_savegame_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_score_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_scoreboard_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_select_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_sell_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_setting_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_sfx_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_sign_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_singleplayer_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_social_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_soundeffects_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_soundoptions_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_start_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_start_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_stop_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_store_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_submitscore_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_system_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_trophies_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_tumblr_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_tutorial_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_twitter_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_undo_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_videooptions_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_wall_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_yes_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_youtube_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_zombie_1_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_zombie_1_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_zombie_1_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_zombie_1_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_zombie_1_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_zombie_1_5.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_zombie_1_6.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_zombie_1_7.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/spr_zombie_1_8.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/sprite137_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/sprite143_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/sprite145_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/sprite28_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/sprite28_1.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/sprite28_2.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/sprite28_3.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/sprite28_4.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/images/sprite37_0.png
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_1player.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_2player.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_about.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_acheivments.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_audio.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_back.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_bestscore.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_buy.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_campaign.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_contactus.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_continue.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_controls.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_createparty.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_credits.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_customgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_damage.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_deletegame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_dialogue_box.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_disable.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_door.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_download.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_easy.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_enable.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_enemy_slime.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_enemy_slime_2.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_enemy_slime_boss.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_exit.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_export.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_expr.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_facebook.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_forward.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_gameoptions.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_general.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_graphics.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_hard.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_health.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_help.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_highscore.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_import.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_information.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_insane.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_instagram.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_joinparty.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_keybindings.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_language.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_leaderboard.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_leaveparty.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_load.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_loadgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_login.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_logout.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_mainmenu.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_medium.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_menu.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_mods.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_moregames.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_multiplayer.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_musicoff.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_musicon.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_newgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_next.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_no.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_options.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_other.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_overview.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_pause.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_play.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_playagain.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player2_attack_down.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player2_attack_left.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player2_attack_right.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player2_attack_up.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player2_down.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player2_down_NO.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player2_left.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player2_right.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player2_up.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player2_up_NO.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player3_down.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player3_left.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player3_right.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player3_up.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player4_down.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player4_left.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player_attack_down.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player_attack_left.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player_attack_right.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player_attack_up.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player_down.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player_left.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player_right.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player_shadow.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_player_up.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_playgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_profile.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_quickplay.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_quit.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_quitgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_quitlevel.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_rankedgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_redo.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_removeads.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_report.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_restart.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_restartgame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_resume.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_return.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_save.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_savegame.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_score.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_scoreboard.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_select.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_sell.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_setting.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_sfx.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_sign.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_singleplayer.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_social.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_soundeffects.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_soundoptions.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_start.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_stop.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_store.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_submitscore.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_system.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_trophies.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_tumblr.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_tutorial.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_twitter.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_undo.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_videooptions.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_wall.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_yes.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_youtube.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/spr_zombie_1.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite137.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite138.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite143.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite144.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite145.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite28.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite29.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite30.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite31.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite32.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite33.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite34.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite35.sprite.gmx
+#	new file:   GAME_TP_2.gmx - Copy/sprites/sprite37.sprite.gmx
+#	modified:   GAME_TP_2.gmx/GAME_TP_2.project.gmx
+#	new file:   GAME_TP_2.gmx/fonts/level_font.font.gmx
+#	new file:   GAME_TP_2.gmx/fonts/level_font.png
+#	modified:   GAME_TP_2.gmx/objects/obj_damage.object.gmx
+#	new file:   GAME_TP_2.gmx/objects/obj_dialogue.object.gmx
+#	modified:   GAME_TP_2.gmx/objects/obj_enemy_slime.object.gmx
+#	modified:   GAME_TP_2.gmx/objects/obj_player.object.gmx
+#	modified:   GAME_TP_2.gmx/objects/obj_player_stats.object.gmx
+#	new file:   GAME_TP_2.gmx/objects/obj_sign.object.gmx
+#	new file:   GAME_TP_2.gmx/objects/obj_speaker.object.gmx
+#	modified:   GAME_TP_2.gmx/objects/object11.object.gmx
+#	modified:   GAME_TP_2.gmx/rooms/character_select.room.gmx
+#	modified:   GAME_TP_2.gmx/rooms/rm_one.room.gmx
+#	modified:   GAME_TP_2.gmx/scripts/scr_attack_state.gml
+#	modified:   GAME_TP_2.gmx/scripts/scr_dash_state.gml
+#	modified:   GAME_TP_2.gmx/scripts/scr_get_input.gml
+#	modified:   GAME_TP_2.gmx/scripts/scr_move_state.gml
+#	new file:   GAME_TP_2.gmx/sprites/bar_border.sprite.gmx
+#	renamed:    GAME_TP_2.gmx/sprites/health_border.sprite.gmx -> GAME_TP_2.gmx/sprites/expr_border_sprite.sprite.gmx
+#	renamed:    GAME_TP_2.gmx/sprites/stamina_inner.sprite.gmx -> GAME_TP_2.gmx/sprites/expr_inner_sprite.sprite.gmx
+#	new file:   GAME_TP_2.gmx/sprites/images/bar_border_0.png
+#	new file:   GAME_TP_2.gmx/sprites/images/expr_border_sprite_0.png
+#	new file:   GAME_TP_2.gmx/sprites/images/expr_inner_sprite_0.png
+#	deleted:    GAME_TP_2.gmx/sprites/images/health_border_0.png
+#	deleted:    GAME_TP_2.gmx/sprites/images/health_border_1.png
+#	deleted:    GAME_TP_2.gmx/sprites/images/health_border_2.png
+#	deleted:    GAME_TP_2.gmx/sprites/images/health_inner_0.png
+#	new file:   GAME_TP_2.gmx/sprites/images/spr_dialogue_box_0.png
+#	modified:   GAME_TP_2.gmx/sprites/images/spr_enemy_slime_boss_0.png
+#	modified:   GAME_TP_2.gmx/sprites/images/spr_enemy_slime_boss_1.png
+#	modified:   GAME_TP_2.gmx/sprites/images/spr_enemy_slime_boss_2.png
+#	modified:   GAME_TP_2.gmx/sprites/images/spr_enemy_slime_boss_3.png
+#	modified:   GAME_TP_2.gmx/sprites/images/spr_enemy_slime_boss_4.png
+#	modified:   GAME_TP_2.gmx/sprites/images/spr_enemy_slime_boss_5.png
+#	new file:   GAME_TP_2.gmx/sprites/images/spr_sign_0.png
+#	new file:   GAME_TP_2.gmx/sprites/images/spr_zombie_1_0.png
+#	new file:   GAME_TP_2.gmx/sprites/images/spr_zombie_1_1.png
+#	new file:   GAME_TP_2.gmx/sprites/images/spr_zombie_1_2.png
+#	new file:   GAME_TP_2.gmx/sprites/images/spr_zombie_1_3.png
+#	new file:   GAME_TP_2.gmx/sprites/images/spr_zombie_1_4.png
+#	new file:   GAME_TP_2.gmx/sprites/images/spr_zombie_1_5.png
+#	new file:   GAME_TP_2.gmx/sprites/images/spr_zombie_1_6.png
+#	new file:   GAME_TP_2.gmx/sprites/images/spr_zombie_1_7.png
+#	new file:   GAME_TP_2.gmx/sprites/images/spr_zombie_1_8.png
+#	modified:   GAME_TP_2.gmx/sprites/images/sprite37_0.png
+#	deleted:    GAME_TP_2.gmx/sprites/images/stamina_border_0.png
+#	deleted:    GAME_TP_2.gmx/sprites/images/stamina_inner_0.png
+#	new file:   GAME_TP_2.gmx/sprites/spr_dialogue_box.sprite.gmx
+#	modified:   GAME_TP_2.gmx/sprites/spr_player2_down.sprite.gmx
+#	new file:   GAME_TP_2.gmx/sprites/spr_sign.sprite.gmx
+#	new file:   GAME_TP_2.gmx/sprites/spr_zombie_1.sprite.gmx
+#	modified:   GAME_TP_2.gmx/sprites/sprite37.sprite.gmx
+#
+

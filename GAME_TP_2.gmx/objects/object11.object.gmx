@@ -40,11 +40,11 @@ yaxis = 0;
 
 dir = 0;
 
-hp = 3;
+hp = 10;
 
 attacking = false;
 
-image_speed = 0;
+image_speed = 5;
 
 scr_get_input();
 
@@ -325,8 +325,11 @@ draw_self();
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>8,16</point>
-    <point>24,16</point>
-    <point>24,32</point>
+    <point>20,16</point>
+    <point>20,32</point>
     <point>8,32</point>
+    <point>24,16</point>
+    <point>24,28</point>
+    <point>8,28</point>
   </PhysicsShapePoints>
 </object>
