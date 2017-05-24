@@ -183,6 +183,27 @@
     </sprites>
     <sprites name="new_test_spr">
       <sprite>sprites\spr_zombie_1</sprite>
+      <sprite>sprites\spr_crab_1</sprite>
+      <sprite>sprites\spr_crab_2</sprite>
+      <sprite>sprites\spr_crocodile_down</sprite>
+      <sprite>sprites\spr_crocodile_left</sprite>
+      <sprite>sprites\spr_crocodile_right</sprite>
+      <sprite>sprites\spr_crocodile_up</sprite>
+      <sprite>sprites\spr_fly_1</sprite>
+      <sprite>sprites\spr_spider_down</sprite>
+      <sprite>sprites\spr_spider_left</sprite>
+      <sprite>sprites\spr_spider_right</sprite>
+      <sprite>sprites\spr_spider_up</sprite>
+      <sprite>sprites\sprite167</sprite>
+      <sprite>sprites\spr_treeboss_left</sprite>
+      <sprite>sprites\spr_treeboss_right</sprite>
+      <sprite>sprites\spr_lizardboss_down</sprite>
+      <sprite>sprites\spr_lizardboss_left</sprite>
+      <sprite>sprites\spr_lizardboss_right</sprite>
+      <sprite>sprites\spr_lizardboss_up</sprite>
+      <sprite>sprites\spr_gummyboss_right</sprite>
+      <sprite>sprites\spr_gummyboss_left</sprite>
+      <sprite>sprites\spr</sprite>
     </sprites>
     <sprite>sprites\spr_dialogue_box</sprite>
     <sprite>sprites\spr_sign</sprite>

@@ -137,11 +137,6 @@ draw_set_font(level_font);
 draw_text(17, 33,"Lv " + string(level) );
 draw_set_font(-1);
 draw_set_colour(c_green);
-draw_text(32, 16, "Health:" + string(hp) + "/" + string(maxhp) );
-draw_set_colour(c_blue);
-draw_text(32, 32, "Stamina:" + string(stamina) + "/" + string(maxstamina) );
-draw_set_colour(c_white);
-draw_text(32, 48, "Level:" + string(level) );
 </string>
           </argument>
         </arguments>
