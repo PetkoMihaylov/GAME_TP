@@ -81,20 +81,6 @@ image_speed = 0;
     <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
-        <id>331</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_restart_game</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -109,10 +95,8 @@ image_speed = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_restart();
-
-global.create_char = 1;
-room_goto(character_select);
+            <string>global.create_char = 1;
+room_goto(rm_one);
 </string>
           </argument>
         </arguments>
