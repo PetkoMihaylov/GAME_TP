@@ -272,7 +272,10 @@
       <object>objects\resume_object</object>
       <object>objects\gameend_object</object>
       <object>objects\back_object</object>
+      <object>objects\options_object</object>
       <object>objects\Exit_object</object>
+      <object>objects\controls_object</object>
+      <object>objects\sound_object</object>
       <object>objects\load_object</object>
       <object>objects\save_object</object>
     </objects>
@@ -298,6 +301,7 @@
     <room>rooms\rm_one</room>
     <room>rooms\character_select</room>
     <room>rooms\ingame_menu</room>
+    <room>rooms\rm_options</room>
     <room>rooms\rm_two</room>
   </rooms>
   <help>
