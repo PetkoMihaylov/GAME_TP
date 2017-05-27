@@ -22,8 +22,5 @@
             global.mana = global.maxmana;
         }
     }
-<<<<<<< HEAD
 }
-=======
 }*/
->>>>>>> origin/master
