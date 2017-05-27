@@ -57,31 +57,6 @@ face = RIGHT;
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/// Spell alarm
-
-state = scr_fireball_state;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -127,6 +102,7 @@ state = scr_move_state;
           <argument>
             <kind>1</kind>
             <string>/// Step event for Movement
+// //scr_move_state();
 //event_inherited();
 
 if(global.pause) exit;
@@ -136,13 +112,11 @@ depth = -y;
 script_execute(state);
 
 //Check for death
-if(global.select == 2)
+if(obj_player_stats.hp &lt;=0)
 {
-    if(global.hp &lt;=0)
-    {
-        instance_destroy();
-    }
+    instance_destroy();
 }
+
 </string>
           </argument>
         </arguments>
@@ -239,17 +213,17 @@ with (obj_player_stats)
 {
     //obj_player_stats.expr += 1;
     //NEEDS CHANGES
-    global.expr += 1;
+    expr += 1;
     if (expr &gt;= maxexpr)
     {
-        global.level += 1;
-        global.expr = global.expr - maxexpr;
+        level += 1;
+        expr = expr - maxexpr;
         //maxexpr += 3;
-        global.maxexpr *= 2; //It means every next level the needed experience is doubled
-        global.hp += 2;
-        global.maxhp +=2 ;
-        global.mana += 2;
-        global.maxmana += 2;
+        maxexpr *= 2; //It means every next level the needed experience is doubled
+        hp += 2;
+        maxhp +=2 ;
+        stamina += 2;
+        maxstamina += 2;
         attack += 1;
     }
 }
@@ -350,9 +324,12 @@ draw_self();
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>12,20</point>
-    <point>16,20</point>
-    <point>16,32</point>
-    <point>12,32</point>
+    <point>8,16</point>
+    <point>20,16</point>
+    <point>20,32</point>
+    <point>8,32</point>
+    <point>24,16</point>
+    <point>24,28</point>
+    <point>8,28</point>
   </PhysicsShapePoints>
 </object>

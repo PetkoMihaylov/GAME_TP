@@ -196,8 +196,8 @@ if( state != scr_enemy_stall_state)
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>64,88</point>
-    <point>16,88</point>
-    <point>16,48</point>
-    <point>64,48</point>
+    <point>8,88</point>
+    <point>8,8</point>
+    <point>64,8</point>
   </PhysicsShapePoints>
 </object>
