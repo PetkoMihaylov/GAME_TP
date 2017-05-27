@@ -165,8 +165,8 @@ if(global.select == 2)
     draw_set_colour(c_white);
     draw_text(112, 16, "Health:" + string(global.hp) + "/" + string(global.maxhp) );
     
-    draw_sprite_ext(stamina_border, 0, 75, 32, 0.5, 1, 0, c_white, 1);
-    draw_sprite_ext(stamina_inner, 0, 75, 32, 0.5*global.mana/global.maxmana, 1, 0, c_white, 1);
+    draw_sprite_ext(mana_border, 0, 75, 32, 0.5, 1, 0, c_white, 1);
+    draw_sprite_ext(mana_inner, 0, 75, 32, 0.5*global.mana/global.maxmana, 1, 0, c_white, 1);
     
     draw_text(112, 36, "Mana:" + string(global.mana) + "/" + string(global.maxmana) );
     

@@ -176,8 +176,10 @@
       <sprite>sprites\expr_inner_sprite</sprite>
       <sprite>sprites\expr_border_sprite</sprite>
       <sprite>sprites\health_border</sprite>
+      <sprite>sprites\mana_border</sprite>
       <sprite>sprites\stamina_border</sprite>
       <sprite>sprites\health_inner</sprite>
+      <sprite>sprites\mana_inner</sprite>
       <sprite>sprites\stamina_inner</sprite>
       <sprite>sprites\bar_border</sprite>
     </sprites>
@@ -262,6 +264,7 @@
     <objects name="menu">
       <object>objects\play_object</object>
       <object>objects\start_object</object>
+      <object>objects\deaed_screen_obj</object>
       <object>objects\restart_object</object>
       <object>objects\cursor_object</object>
       <object>objects\dead_screen</object>
