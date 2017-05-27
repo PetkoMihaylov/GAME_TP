@@ -6,7 +6,6 @@ down_key = keyboard_check(vk_down);
 up_key = keyboard_check(vk_up);
 
 dash_key = keyboard_check_pressed(ord('C'));
-
 attack_key = keyboard_check_pressed(ord('X'));
 fireball_key = keyboard_check_pressed(ord('Z'));
 

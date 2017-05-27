@@ -14,6 +14,20 @@ if(instance_exists(obj_player))
         scr_enemy_choose_next_state();
     }   
 }
+else if(instance_exists(object11))
+{
+    var dis = point_distance(x, y, object11.x, object11.y);
+    if(dis < sight)
+    {
+        state = scr_enemy_chase_state;
+        targetx = object11.x;
+        targety = object11.y;
+    }
+    else
+    {
+        scr_enemy_choose_next_state();
+    }   
+}
 else
 {
     scr_enemy_choose_next_state();

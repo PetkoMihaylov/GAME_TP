@@ -203,7 +203,7 @@ with (other)
 
 with (obj_player_stats)
 {
-    hp = min(hp+5, maxhp);
+    global.hp = min(global.hp+5, global.maxhp);
     
 }
 </string>
@@ -240,7 +240,7 @@ with (obj_player_stats)
     //obj_player_stats.expr += 1;
     //NEEDS CHANGES
     global.expr += 1;
-    if (expr &gt;= maxexpr)
+    if (global.expr &gt;= global.maxexpr)
     {
         global.level += 1;
         global.expr = global.expr - maxexpr;

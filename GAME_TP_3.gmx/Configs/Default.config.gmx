@@ -419,7 +419,9 @@
     <option_xbone_texture_page>1024</option_xbone_texture_page>
   </Options>
   <ConfigConstants>
-    <constants number="6">
+    <constants number="8">
+      <constant name="KNOCKBACK_">5</constant>
+      <constant name="DAMAGE_">1</constant>
       <constant name="RIGHT">0</constant>
       <constant name="UP">1</constant>
       <constant name="LEFT">2</constant>

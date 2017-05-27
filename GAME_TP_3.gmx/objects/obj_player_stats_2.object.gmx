@@ -32,7 +32,7 @@ if(global.select == 2)
     //Level and experience
     global.level = 1;
     global.expr = 0;
-    global.maxexpr = 10;
+    global.maxexpr = 3;
     
     //Health
     
@@ -127,9 +127,9 @@ if(global.select == 2)
     }
     
     //Stamina regeneration
-    if(global.mana &lt; global.maxmana and alarm[1] == -1)
+    if(global.mana &lt; global.maxmana) // and alarm[1] == -1
     {
-        global.mana++;
+        global.mana = global.mana + 0.1;
     }
 }
 </string>

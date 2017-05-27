@@ -29,7 +29,7 @@
 
 if(global.select == 1)
 {
-    hp = 15;
+    hp = 30;
     maxhp = hp;
     stamina = 10;
     maxstamina = stamina;
