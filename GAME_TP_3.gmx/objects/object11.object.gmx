@@ -227,7 +227,8 @@ with (obj_player_stats)
         global.maxhp +=2 ;
         global.mana += 2;
         global.maxmana += 2;
-        attack += 1;
+        global.attack += 1;
+        global.spelldamage += 2.5;
     }
 }
 </string>
@@ -253,7 +254,7 @@ with (obj_player_stats)
           <argument>
             <kind>1</kind>
             <string>///Change back to move state
-if(state == scr_attack_state)
+if(state == scr_fireball_state)
 {
     state = scr_move_state;
     attacking = false;

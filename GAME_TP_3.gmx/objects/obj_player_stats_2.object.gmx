@@ -41,11 +41,14 @@ if(global.select == 2)
     // Magic
     global.mana = 10;
     global.maxmana = global.mana;
-    
+    global.knockback = 1;
     
     //Spell
     global.spell = obj_fireball;
     global.spellcost = 1;
+    
+    global.attack = 1;
+    global.spelldamage = 2.5;
 }
 
 </string>

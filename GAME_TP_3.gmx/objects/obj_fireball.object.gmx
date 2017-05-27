@@ -35,8 +35,11 @@ speed = 4;
 cur_mouse_x = mouse_x;
 cur_mouse_y = mouse_y;
 angle = point_direction(x, y, cur_mouse_x, cur_mouse_y);
-alarm[3] = 30;
+alarm[3] = 20;
 
+damage = DAMAGE_;
+knockback = KNOCKBACK_;
+creator = noone;
 
 //move_towards_point(900, 800, 5);
 //obj_player.alarm[0] = 10;
@@ -83,6 +86,49 @@ alarm[3] = 30;
 y += lengthdir_y(speed, angle);
 
 //if(x == cur_mouse_x &amp;&amp; y== cur_mouse_y)
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_lifeform_parent">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Damage all life forms
+if(other.id != creator)
+{
+    other.hp -= damage;
+    if(instance_exists(creator))
+    {
+    // Apply the knockback
+    var dir = point_direction(creator.x , creator.y, other.x, other.y);
+    }
+    else
+    {
+        var dir = point_direction(x , y, other.x, other.y);
+    }
+    var xforce = lengthdir_x(knockback, dir);
+    var yforce = lengthdir_y(knockback, dir);
+    with (other)
+    {
+        physics_apply_impulse(x, y, xforce, yforce); //not the same as above, because we use the knocbkback and direction, not the 'other' object's coordinates
+    }
+}
 
 </string>
           </argument>
