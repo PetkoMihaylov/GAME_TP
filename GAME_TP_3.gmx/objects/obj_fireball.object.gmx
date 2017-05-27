@@ -28,14 +28,14 @@
             <string>///Initialize the fireball
 
 //Fireball
-speed = 2;
+speed = 4;
 
 // the mouse will be the direction of the fireball
 //direction = point_direction(x, y, mouse_x, mouse_y); 
 cur_mouse_x = mouse_x;
 cur_mouse_y = mouse_y;
 angle = point_direction(x, y, cur_mouse_x, cur_mouse_y);
-alarm[3] = 20;
+alarm[3] = 30;
 
 
 //move_towards_point(900, 800, 5);
