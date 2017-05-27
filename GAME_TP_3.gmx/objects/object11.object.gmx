@@ -220,7 +220,7 @@ with (obj_player_stats)
     if (global.expr &gt;= global.maxexpr)
     {
         global.level += 1;
-        global.expr = global.expr - maxexpr;
+        global.expr = global.expr - global.maxexpr;
         //maxexpr += 3;
         global.maxexpr *= 2; //It means every next level the needed experience is doubled
         global.hp += 2;

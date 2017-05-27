@@ -218,6 +218,7 @@
     <sprites name="group">
       <sprite>sprites\spr_fireball</sprite>
     </sprites>
+    <sprite>sprites\sprite184</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>

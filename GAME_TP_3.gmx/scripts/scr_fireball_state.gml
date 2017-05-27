@@ -90,9 +90,18 @@ if (image_index >=3 and attacking == false)
 
      if (alarm[1] == -1 && global.spellcost <= global.mana)
     {
-        var damage = instance_create(x, y, obj_fireball);
-        damage.creator = id;
-        damage.damage = global.attack;
+        //var damage = instance_create(x, y, obj_fireball);
+        //var damage = instance_create(object11.x, object11.y, obj_fireball);
+        with (instance_create(object11.x, object11.y, obj_fireball)) { phy_bullet = true; 
+        direction = point_direction(x, y, xxx, yyy);
+        }
+        //physics_apply_local_impulse(x, y, xxx, yyy); }
+        //direction = point_direction(x,y, xxx, yyy);
+        //direction = point_direction(x , y, mouse_x, mouse_y);
+        speed = 4;
+        //move_towards_point( xxx, yyy, 4 );
+        //damage.creator = id;
+        //damage.damage = global.attack;
         //global.cur_mouse_x = mouse_x;
         //global.cur_mouse_y = mouse_y;
         global.mana -= global.spellcost;
