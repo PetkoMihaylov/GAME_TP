@@ -419,11 +419,12 @@
     <option_xbone_texture_page>1024</option_xbone_texture_page>
   </Options>
   <ConfigConstants>
-    <constants number="5">
+    <constants number="6">
       <constant name="RIGHT">0</constant>
       <constant name="UP">1</constant>
       <constant name="LEFT">2</constant>
       <constant name="DOWN">3</constant>
+      <constant name="DASH_COST_MANA">2</constant>
       <constant name="DASH_COST">5</constant>
     </constants>
   </ConfigConstants>

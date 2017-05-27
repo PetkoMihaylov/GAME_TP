@@ -27,17 +27,20 @@
             <kind>1</kind>
             <string>///Initialize the stats of the player
 
-hp = 15;
-maxhp = hp;
-stamina = 10;
-maxstamina = stamina;
-
-expr = 0;
-maxexpr = 3;
-
-level = 1;
-
-attack = 1;
+if(global.select == 1)
+{
+    hp = 15;
+    maxhp = hp;
+    stamina = 10;
+    maxstamina = stamina;
+    
+    expr = 0;
+    maxexpr = 3;
+    
+    level = 1;
+    
+    attack = 1;
+}
 </string>
           </argument>
         </arguments>
@@ -84,16 +87,44 @@ attack = 1;
           <argument>
             <kind>1</kind>
             <string>///Control the stats
-if (hp &lt; 0)
+if(global.select == 1)
 {
-    hp = 0;
+    if (hp &lt; 0)
+    {
+        hp = 0;
+    }
+    
+    //Stamina regeneration
+    if(stamina &lt; maxstamina and alarm[0] == -1)
+    {
+        stamina++;
+    }
 }
-
-//Stamina regeneration
-if(stamina &lt; maxstamina and alarm[0] == -1)
-{
-    stamina++;
-}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Create the input object (obj_input)
+if(global_select == 1)
+    instance_create(0, 0, obj_input);
 </string>
           </argument>
         </arguments>
@@ -119,24 +150,27 @@ if(stamina &lt; maxstamina and alarm[0] == -1)
             <string>/// Draw the stats
 //draw_set_colour(c_white);
 //draw_rectangle(0, 0, 200, 100, false);
-draw_sprite_ext(bar_border, 0, 0, 0, 1.24, 1.1, 0, c_white, 1);
-draw_sprite_ext(health_border, 0, 75, 12, 0.5, 1, 0, c_white, 1);
-draw_sprite_ext(health_inner, 0, 75, 12, 0.5*hp/maxhp, 1, 0, c_white, 1);
-draw_set_colour(c_white);
-draw_text(112, 16, "Health:" + string(hp) + "/" + string(maxhp) );
-
-draw_sprite_ext(stamina_border, 0, 75, 32, 0.5, 1, 0, c_white, 1);
-draw_sprite_ext(stamina_inner, 0, 75, 32, 0.5*stamina/maxstamina, 1, 0, c_white, 1);
-
-draw_text(112, 36, "Stamina:" + string(stamina) + "/" + string(maxstamina) );
-
-draw_sprite_ext(expr_border_sprite, 0, 75, 52, 0.5, 0.25, 0, c_white, 1);
-draw_sprite_ext(expr_inner_sprite, 0, 75, 52, 0.5*expr/maxexpr, 0.25, 0, c_white, 1);
-
-draw_set_font(level_font);
-draw_text(17, 33,"Lv " + string(level) );
-draw_set_font(-1);
-draw_set_colour(c_green);
+if(global.select == 1)
+{
+    draw_sprite_ext(bar_border, 0, 0, 0, 1.24, 1.1, 0, c_white, 1);
+    draw_sprite_ext(health_border, 0, 75, 12, 0.5, 1, 0, c_white, 1);
+    draw_sprite_ext(health_inner, 0, 75, 12, 0.5*hp/maxhp, 1, 0, c_white, 1);
+    draw_set_colour(c_white);
+    draw_text(112, 16, "Health:" + string(hp) + "/" + string(maxhp) );
+    
+    draw_sprite_ext(stamina_border, 0, 75, 32, 0.5, 1, 0, c_white, 1);
+    draw_sprite_ext(stamina_inner, 0, 75, 32, 0.5*stamina/maxstamina, 1, 0, c_white, 1);
+    
+    draw_text(112, 36, "Stamina:" + string(stamina) + "/" + string(maxstamina) );
+    
+    draw_sprite_ext(expr_border_sprite, 0, 75, 52, 0.5, 0.25, 0, c_white, 1);
+    draw_sprite_ext(expr_inner_sprite, 0, 75, 52, 0.5*expr/maxexpr, 0.25, 0, c_white, 1);
+    
+    draw_set_font(level_font);
+    draw_text(17, 33,"Lv " + string(level) );
+    draw_set_font(-1);
+    draw_set_colour(c_green);
+}
 </string>
           </argument>
         </arguments>
