@@ -207,10 +207,6 @@
     </sprites>
     <sprite>sprites\spr_dialogue_box</sprite>
     <sprite>sprites\spr_sign</sprite>
-    <sprite>sprites\spr_player4_right</sprite>
-    <sprites name="group">
-      <sprite>sprites\spr_fireball</sprite>
-    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -228,7 +224,6 @@
       <script>scripts\scr_move_state.gml</script>
       <script>scripts\scr_dash_state.gml</script>
       <script>scripts\scr_attack_state.gml</script>
-      <script>scripts\scr_fireball_state.gml</script>
     </scripts>
     <scripts name="Enemy Scripts">
       <scripts name="Enemy Helper Scripts">
@@ -270,8 +265,6 @@
       <object>objects\gameend_object</object>
       <object>objects\back_object</object>
       <object>objects\Exit_object</object>
-      <object>objects\load_object</object>
-      <object>objects\save_object</object>
     </objects>
     <object>objects\obj_door</object>
     <objects name="character_select">
@@ -283,11 +276,6 @@
     <object>objects\obj_speaker</object>
     <object>objects\obj_dialogue</object>
     <object>objects\obj_sign</object>
-    <object>objects\obj_input</object>
-    <objects name="group">
-      <object>objects\obj_fireball</object>
-      <object>objects\obj_player_stats_2</object>
-    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_menu</room>

@@ -1,4 +1,4 @@
-//scr_move_state
+///scr_move_state
 
 //run script for keys
 scr_get_input();
@@ -33,34 +33,16 @@ if(dash_key)
             
         }
     }
-    else if(global.select == 1 )
+    else if(obj_player_stats.stamina >= DASH_COST)
     {
-        if(obj_player_stats.stamina >= DASH_COST)
-        {
-            state = scr_dash_state;
-            alarm[0] = room_speed/8;
-            obj_player_stats.stamina -= DASH_COST;
-            obj_player_stats.alarm[0] = room_speed;
-        }
-    }
-    else if(global.select == 2 )
-    {
-        if(global.mana >= DASH_COST_MANA)
-        {
-            state = scr_dash_state;
-            alarm[0] = room_speed/10;
-            global.mana -= DASH_COST_MANA;
-            obj_player_stats_2.alarm[0] = room_speed;
-        }
+        state = scr_dash_state;
+        alarm[0] = room_speed/8;
+        obj_player_stats.stamina -= DASH_COST;
+        obj_player_stats.alarm[0] = room_speed;
     }
 }
 
-if(fireball_key && global.select == 2)
-{
-    state = scr_fireball_state;
-}
-
-if(attack_key && global.select == 1)
+if(attack_key)
 {
     image_index = 0;
     state = scr_attack_state;
@@ -95,11 +77,11 @@ phy_position_x += hspd;
 phy_position_y += vspd;
 
 //Control the sprite
-if(global.select == 1)
+if(global.select = 1)
 {
     image_speed = .2;
 }
-else if(global.select == 2)
+else if(global.select = 2)
 {
     image_speed = .3;
 }
