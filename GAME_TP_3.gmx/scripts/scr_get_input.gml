@@ -1,4 +1,4 @@
-
+///scr_get_input
 
 right_key = keyboard_check(global.key_right);
 left_key = keyboard_check(global.key_left);

@@ -110,11 +110,13 @@ if(global.pause) exit;
 depth = -y;
 
 script_execute(state);
+//var xx = object11.x;
+//var yy = object11.y;
 
 //Check for death
 if(global.select == 2)
 {
-    if(global.hp &lt;=0)
+    if(global.hp &lt;= 0)
     {
         instance_destroy();
         instance_deactivate_all(false);
@@ -128,7 +130,42 @@ if(global.select == 2)
             instance_create(x,y,obj_fireball);
         }
     }
+    
 }
+
+
+//working code for lives, but won't use it because the other character does not work with it
+//obj_player_stats.hp fails on the player1, but not with the global variables of player2
+/*
+if(global.select == 2)
+{
+    if(global.hp &lt;=0 and global.life &gt;= 1)
+    {
+        instance_destroy();
+        if(global.life &gt;= 1)
+        {
+            alarm[4] = room_speed;
+            global.life --;
+            instance_create(xx, yy + 2, object11);
+            global.hp = global.maxhp
+        }
+    }
+    else if(global.hp &lt;=0 and global.life &lt; 1)
+    {
+        instance_destroy();
+        instance_deactivate_all(false);
+        room_goto(dead_room);
+    }
+    if (keyboard_check_pressed(global.key_fireball))
+    {
+        if(global.mana &gt;= global.spellcost)
+        {
+            global.mana -= global.spellcost;
+            instance_create(x,y,obj_fireball);
+        }
+    }
+    
+}*/
 </string>
           </argument>
         </arguments>

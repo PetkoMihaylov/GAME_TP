@@ -109,14 +109,40 @@ depth = -y;
 
 script_execute(state);
 
+//var xx = obj_player.x;
+//var yy = obj_player.y;
+//var hp = obj_player_stats.hp;
 //Check for death
-if(obj_player_stats.hp &lt;=0)
+if(obj_player_stats.hp &lt;= 0) //and lives&lt;=0
 {
-    instance_destroy();
-    instance_deactivate_all(false);
-    room_goto(dead_room);
+    
+        instance_destroy();
+        instance_deactivate_all(false);
+        room_goto(dead_room);
 }
 
+/*if(obj_player_stats.hp &lt;=0)
+{
+    if(global.life &gt;= 1)
+    {
+        instance_destroy();
+        instance_deactivate_all(false);
+        global.life --;
+        alarm[4] = 30;
+        if(global.life &gt;= 1)
+        {
+            instance_create(xx, yy, obj_player);
+        }
+    }
+    else
+    {
+        instance_destroy();
+        instance_deactivate_all(false);
+        room_goto(dead_room);
+    }
+    
+}
+*/
 </string>
           </argument>
         </arguments>
