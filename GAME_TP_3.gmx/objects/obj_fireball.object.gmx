@@ -91,6 +91,21 @@ alarm[3] = 20;
             <string>x += lengthdir_x(speed, angle);
 y += lengthdir_y(speed, angle);
 
+var enemy = collision_circle( x, y, 2, obj_enemy_slime, false, true );
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime_2, false, true );
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime_boss, false, true );
+
+if instance_exists(enemy)    
+{
+    var hero = instance_find(object11,1);
+    var stats = instance_find(obj_player_stats_2,1);
+
+    enemy.hp -= global.spelldamage; //stats.spelldamage;
+    instance_destroy();
+
+}
 //if(x == cur_mouse_x &amp;&amp; y== cur_mouse_y)
 
 </string>
@@ -166,7 +181,7 @@ instance_destroy();
       </action>
     </event>
   </events>
-  <PhysicsObject>-1</PhysicsObject>
+  <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>-1</PhysicsObjectSensor>
   <PhysicsObjectShape>1</PhysicsObjectShape>
   <PhysicsObjectDensity>0.100000001490116</PhysicsObjectDensity>

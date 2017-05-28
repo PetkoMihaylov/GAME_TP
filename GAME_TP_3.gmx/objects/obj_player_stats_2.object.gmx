@@ -45,7 +45,7 @@ if(global.select == 2)
     
     //Spell
     global.spell = obj_fireball;
-    global.spellcost = 1;
+    global.spellcost = 6;
     
     global.attack = 1;
     global.spelldamage = 2.5;
@@ -171,7 +171,7 @@ if(global.select == 2)
     draw_sprite_ext(mana_border, 0, 75, 32, 0.5, 1, 0, c_white, 1);
     draw_sprite_ext(mana_inner, 0, 75, 32, 0.5*global.mana/global.maxmana, 1, 0, c_white, 1);
     
-    draw_text(112, 36, "Mana:" + string(global.mana) + "/" + string(global.maxmana) );
+    draw_text(112, 36, "Mana:" + string(round(global.mana)) + "/" + string(global.maxmana) );
     
     draw_sprite_ext(expr_border_sprite, 0, 75, 52, 0.5, 0.25, 0, c_white, 1);
     draw_sprite_ext(expr_inner_sprite, 0, 75, 52, 0.5*global.expr/global.maxexpr, 0.25, 0, c_white, 1);

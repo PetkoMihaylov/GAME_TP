@@ -88,7 +88,7 @@ if (image_index >=3 and attacking == false)
         
     }
 
-     if (alarm[1] == -1 && global.spellcost <= global.mana)
+    /* if (alarm[1] == -1 && global.spellcost <= global.mana)
     {
         //var damage = instance_create(x, y, obj_fireball);
         //var damage = instance_create(object11.x, object11.y, obj_fireball);
@@ -107,7 +107,7 @@ if (image_index >=3 and attacking == false)
         global.mana -= global.spellcost;
         //state = scr_move_state;
         attacking = true;
-    }
+    }*/
     
     
 }
