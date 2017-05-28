@@ -270,12 +270,15 @@ with (obj_player_stats)
         //maxexpr += 3;
         global.maxexpr *= 2; //It means every next level the needed experience is doubled
         global.hp += 2;
-        global.maxhp +=2 ;
-        global.mana += 2;
-        global.maxmana += 2;
-        global.attack += 1;
-        global.spelldamage += 2.5;
+        global.maxhp += 2;
+        global.mana += 4;
+        global.maxmana += 4;
+        global.attack += 0.75;
+        global.spelldamage += 2;
+        //global.spelldamage_two += 1
     }
+    global.hp = global.maxhp;
+    global.mana = global.maxmana;
 }
 </string>
           </argument>

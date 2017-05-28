@@ -35,7 +35,7 @@ state = scr_enemy_idle_state;
 alarm[0] = room_speed*irandom_range(2, 5);
 
 sight = 64;
-damage = DAMAGE_;
+damage = 1.75;
 targetx = 0;
 targety = 0;
 </string>

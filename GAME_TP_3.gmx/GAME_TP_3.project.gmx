@@ -27,6 +27,7 @@
       <sprite>sprites\spr_enemy_slime</sprite>
       <sprite>sprites\spr_enemy_slime_2</sprite>
       <sprite>sprites\spr_enemy_slime_3</sprite>
+      <sprite>sprites\spr_enemy_slime_4</sprite>
       <sprite>sprites\spr_enemy_slime_boss</sprite>
     </sprites>
     <sprites name="Surrounding_objects">
@@ -241,6 +242,9 @@
       <sprite>sprites\spr_floor4</sprite>
     </sprites>
     <sprite>sprites\sprite202</sprite>
+    <sprites name="dsad">
+      <sprite>sprites\spr_flower</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -248,6 +252,8 @@
     <background>background\bg_grass_2</background>
     <background>background\background3</background>
     <background>background\background4</background>
+    <background>background\background5</background>
+    <background>background\background6</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -279,23 +285,59 @@
     <font>fonts\key_font</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_lifeform_parent</object>
-    <object>objects\obj_player</object>
-    <object>objects\object11</object>
-    <object>objects\object11_no</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_floor2</object>
-    <object>objects\obj_view</object>
-    <object>objects\obj_dash_effect</object>
-    <object>objects\obj_crocodile</object>
-    <object>objects\obj_enemy_slime</object>
-    <object>objects\obj_enemy_slime_2</object>
-    <object>objects\obj_enemy_slime_3</object>
-    <object>objects\obj_enemy_slime_boss</object>
-    <object>objects\obj_damage</object>
-    <object>objects\obj_player_stats</object>
-    <object>objects\obj_expr</object>
-    <object>objects\obj_health</object>
+    <objects name="OLD">
+      <object>objects\obj_lifeform_parent</object>
+      <object>objects\obj_player</object>
+      <object>objects\object11_no</object>
+      <object>objects\object11</object>
+      <object>objects\obj_floor2</object>
+      <object>objects\obj_wall3</object>
+      <object>objects\obj_wall</object>
+      <object>objects\obj_view</object>
+      <object>objects\obj_dash_effect</object>
+      <object>objects\obj_enemy_slime</object>
+      <object>objects\obj_enemy_slime_2</object>
+      <object>objects\obj_enemy_slime_3</object>
+      <object>objects\obj_health</object>
+      <object>objects\obj_enemy_slime_boss</object>
+      <object>objects\obj_damage</object>
+      <object>objects\obj_expr</object>
+      <object>objects\obj_player_stats</object>
+      <object>objects\obj_player_stats_2</object>
+      <object>objects\obj_door</object>
+    </objects>
+    <objects name="NEW">
+      <object>objects\obj_crocodile_boss</object>
+      <object>objects\obj_crocodile_minion</object>
+      <object>objects\obj_fly_1</object>
+      <object>objects\obj_crab1</object>
+      <object>objects\obj_crab2</object>
+      <object>objects\obj_spider</object>
+      <object>objects\obj_lizard</object>
+      <object>objects\obj_tree</object>
+      <object>objects\obj_fly_2</object>
+      <object>objects\obj_fly_3</object>
+      <object>objects\obj_fly_4</object>
+      <object>objects\obj_fly_boss</object>
+      <object>objects\obj_crocodile_minion_2</object>
+      <object>objects\obj_crocodile_minion_3</object>
+      <object>objects\obj_enemy_slime1_2</object>
+      <object>objects\obj_enemy_slime1_3</object>
+      <object>objects\obj_enemy_slime2_1</object>
+      <object>objects\obj_enemy_slime2_2</object>
+      <object>objects\obj_enemy_slime_3_1</object>
+      <object>objects\obj_enemy_slime3_2</object>
+      <object>objects\obj_enemy_slime4</object>
+      <object>objects\obj_enemy_slime4_1</object>
+      <object>objects\obj_enemy_slime4_2</object>
+      <object>objects\obj_sign_instructions</object>
+      <object>objects\obj_thus_far</object>
+      <object>objects\object62</object>
+      <object>objects\object70</object>
+      <object>objects\object76</object>
+      <object>objects\object85</object>
+      <object>objects\object90</object>
+    </objects>
     <objects name="menu">
       <object>objects\play_object</object>
       <object>objects\start_object</object>
@@ -332,21 +374,20 @@
       <object>objects\load_object</object>
       <object>objects\save_object</object>
     </objects>
-    <object>objects\obj_door</object>
     <objects name="character_select">
       <object>objects\object21</object>
       <object>objects\char_selected</object>
       <object>objects\char1_select</object>
       <object>objects\object17</object>
     </objects>
-    <object>objects\obj_speaker</object>
-    <object>objects\obj_dialogue</object>
-    <object>objects\obj_sign</object>
-    <object>objects\obj_sign_instructions</object>
-    <object>objects\obj_input</object>
+    <objects name="DIALOGUE">
+      <object>objects\obj_dialogue</object>
+      <object>objects\obj_sign</object>
+      <object>objects\obj_speaker</object>
+      <object>objects\obj_input</object>
+    </objects>
     <objects name="group">
       <object>objects\obj_fireball</object>
-      <object>objects\obj_player_stats_2</object>
       <object>objects\fiev</object>
       <object>objects\object58</object>
       <object>objects\obj_score</object>
@@ -358,12 +399,18 @@
     <room>rooms\dead_room</room>
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
+    <room>rooms\rm_five</room>
+    <room>rooms\rm_six</room>
+    <room>rooms\rm_seven</room>
+    <room>rooms\rm_three</room>
     <room>rooms\character_select</room>
     <room>rooms\ingame_menu</room>
     <room>rooms\rm_contols</room>
     <room>rooms\rm_options</room>
     <room>rooms\rm_two_ama_ne</room>
     <room>rooms\rm_three</room>
+    <room>rooms\rm_four</room>
+    <room>rooms\room13</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
