@@ -99,9 +99,23 @@
     ini_open("settings.ini");
     
     global.key_dash = obj_key_dash.key;
+    global.key_attack = obj_key_attack.key;
+    global.key_fireball = obj_key_spell.key;
+    
+    global.key_down = obj_key_down.key;
+    global.key_up = obj_key_up.key;
+    global.key_left = obj_key_left.key;
+    global.key_right = obj_key_right.key;
     
     
-    ini_write_real("controls","dash",global.key_dash);
+    ini_write_real("control","da",global.key_dash);
+    ini_write_real("control","at",global.key_attack);
+    ini_write_real("control","fi",global.key_fireball);
+    
+    ini_write_real("control","u",global.key_up);
+    ini_write_real("control","d",global.key_down);
+    ini_write_real("control","l",global.key_left);
+    ini_write_real("control","r",global.key_right);
     
     
     ini_close();
