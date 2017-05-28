@@ -1,13 +1,14 @@
-///scr_get_input for abilities
 
-right_key = keyboard_check(vk_right);
-left_key = keyboard_check(vk_left);
-down_key = keyboard_check(vk_down);
-up_key = keyboard_check(vk_up);
 
-dash_key = keyboard_check_pressed(ord('C'));
-attack_key = keyboard_check_pressed(ord('X'));
-fireball_key = keyboard_check_pressed(ord('Z'));
+right_key = keyboard_check(global.key_right);
+left_key = keyboard_check(global.key_left);
+down_key = keyboard_check(global.key_down);
+up_key = keyboard_check(global.key_up);
+
+
+dash_key = keyboard_check_pressed(global.key_dash);
+attack_key = keyboard_check_pressed(global.key_attack);
+fireball_key = keyboard_check_pressed(global.key_fireball);
 
 
 //Get the axis

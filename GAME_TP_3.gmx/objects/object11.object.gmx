@@ -46,6 +46,7 @@ attacking = false;
 
 image_speed = 5;
 
+scr_init_input();
 scr_get_input();
 
 

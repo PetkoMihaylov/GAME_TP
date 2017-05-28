@@ -72,6 +72,7 @@
       <sprite>sprites\spr_back</sprite>
       <sprite>sprites\spr_bestscore</sprite>
       <sprite>sprites\spr_buy</sprite>
+      <sprite>sprites\spr_key</sprite>
       <sprite>sprites\spr_campaign</sprite>
       <sprite>sprites\spr_contactus</sprite>
       <sprite>sprites\spr_continue</sprite>
@@ -229,6 +230,7 @@
   <scripts name="scripts">
     <scripts name="Helper Scripts">
       <script>scripts\scr_get_input.gml</script>
+      <script>scripts\scr_init_input.gml</script>
       <script>scripts\scr_get_face.gml</script>
       <script>scripts\scr_chance.gml</script>
     </scripts>
@@ -251,6 +253,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\level_font</font>
+    <font>fonts\key_font</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_lifeform_parent</object>
@@ -273,6 +276,18 @@
       <object>objects\deaed_screen_obj</object>
       <object>objects\restart_object</object>
       <object>objects\cursor_object</object>
+      <objects name="controls">
+        <objects name="keys">
+          <object>objects\obj_key_dash</object>
+          <object>objects\obj_key_down</object>
+          <object>objects\obj_key_spell</object>
+          <object>objects\obj_key_attack</object>
+          <object>objects\obj_key_right</object>
+          <object>objects\obj_key_left</object>
+          <object>objects\obj_key_up</object>
+        </objects>
+        <object>objects\obj_key_controller</object>
+      </objects>
       <object>objects\dead_screen</object>
       <object>objects\pause_object</object>
       <object>objects\resume_object</object>
@@ -302,6 +317,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_start</room>
     <room>rooms\room_menu</room>
     <room>rooms\dead_room</room>
     <room>rooms\rm_one</room>
