@@ -163,6 +163,9 @@ if(global.select == 2)
 if(global.select == 2)
 {
     draw_set_font(-1);
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
+    
     draw_sprite_ext(bar_border, 0, 0, 0, 1.24, 1.1, 0, c_white, 1);
     draw_sprite_ext(health_border, 0, 75, 12, 0.5, 1, 0, c_white, 1);
     draw_sprite_ext(health_inner, 0, 75, 12, 0.5*global.hp/global.maxhp, 1, 0, c_white, 1);
@@ -180,7 +183,7 @@ if(global.select == 2)
     draw_set_font(level_font);
     draw_text(17, 33,"Lv " + string(global.level) );
     draw_set_font(-1);
-    draw_set_colour(c_green);
+
 }
 </string>
           </argument>

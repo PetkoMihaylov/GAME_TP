@@ -51,15 +51,19 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="save_object" x="832" y="64" name="inst_8BCE07A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="save_object" x="416" y="608" name="inst_8BCE07A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cursor_object" x="96" y="64" name="inst_11791A5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_key_up" x="864" y="448" name="inst_20FDBEF8" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_key_down" x="864" y="544" name="inst_976B8FA0" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_key_left" x="672" y="544" name="inst_B1F06360" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_key_right" x="1056" y="544" name="inst_D71D7CF9" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_key_dash" x="256" y="256" name="inst_FA7D38FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_key_spell" x="256" y="448" name="inst_490F6D71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_key_attack" x="256" y="640" name="inst_17C2B954" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key_up" x="864" y="256" name="inst_20FDBEF8" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key_down" x="864" y="352" name="inst_976B8FA0" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key_left" x="672" y="352" name="inst_B1F06360" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key_right" x="1056" y="352" name="inst_D71D7CF9" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key_dash" x="256" y="160" name="inst_FA7D38FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key_spell" x="256" y="288" name="inst_490F6D71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_key_attack" x="256" y="448" name="inst_17C2B954" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="back2_object" x="0" y="0" name="inst_933E7D3E" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spell" x="32" y="288" name="inst_4C9962E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dash" x="32" y="160" name="inst_B86574D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_attack" x="0" y="448" name="inst_4A162BF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

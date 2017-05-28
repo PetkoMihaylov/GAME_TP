@@ -119,8 +119,8 @@
     
     
     ini_close();
-
-    room_goto(rm_options);
+    
+    room_goto(rm_options)
 }
 </string>
           </argument>

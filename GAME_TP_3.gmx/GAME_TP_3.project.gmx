@@ -220,6 +220,9 @@
       <sprite>sprites\spr_fireball</sprite>
     </sprites>
     <sprite>sprites\sprite184</sprite>
+    <sprite>sprites\spr_attack</sprite>
+    <sprite>sprites\spr_spell</sprite>
+    <sprite>sprites\spr_dash</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -286,6 +289,9 @@
           <object>objects\obj_key_left</object>
           <object>objects\obj_key_up</object>
         </objects>
+        <object>objects\obj_spell</object>
+        <object>objects\obj_dash</object>
+        <object>objects\obj_attack</object>
         <object>objects\obj_key_controller</object>
       </objects>
       <object>objects\dead_screen</object>
@@ -293,6 +299,7 @@
       <object>objects\resume_object</object>
       <object>objects\gameend_object</object>
       <object>objects\back_object</object>
+      <object>objects\back2_object</object>
       <object>objects\options_object</object>
       <object>objects\Exit_object</object>
       <object>objects\controls_object</object>

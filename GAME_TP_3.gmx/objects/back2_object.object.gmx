@@ -94,8 +94,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(room_menu);
-game_restart(); 
+            <string>room_goto(rm_options);
+
+//game_restart(); 
 </string>
           </argument>
         </arguments>
@@ -118,8 +119,8 @@ game_restart();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(room_menu);
-game_restart(); 
+            <string>room_goto(rm_options);
+//game_restart(); 
 </string>
           </argument>
         </arguments>
