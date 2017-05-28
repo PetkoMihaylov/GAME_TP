@@ -301,6 +301,8 @@
       <object>objects\back_object</object>
       <object>objects\back2_object</object>
       <object>objects\options_object</object>
+      <object>objects\savegame_object</object>
+      <object>objects\obj_loadgame</object>
       <object>objects\Exit_object</object>
       <object>objects\controls_object</object>
       <object>objects\sound_object</object>
