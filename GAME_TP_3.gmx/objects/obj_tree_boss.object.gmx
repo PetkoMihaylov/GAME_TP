@@ -62,30 +62,7 @@ targety = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Create experience
-
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-instance_create(x, y, obj_expr);
-
-
-// Drop a health pack
-if (scr_chance(.5))
-{
-    instance_create(x + random_range(-4, 4), y + random_range(-4, 4), obj_health);
-}
+            <string>instance_create(320, 384, obj_door_2);
 </string>
           </argument>
         </arguments>

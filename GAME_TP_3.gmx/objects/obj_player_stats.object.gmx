@@ -39,8 +39,8 @@ if(global.select == 1)
     
     level = 1;
     
-    attack = 1;
-    attack2 = attack*3;
+    attack = 1; // set to 1
+   // attack2 = attack*3;
 }
 </string>
           </argument>
@@ -98,7 +98,7 @@ if(global.select == 1)
     //Stamina regeneration
     if(stamina &lt; maxstamina and alarm[0] == -1)
     {
-        stamina++;
+        stamina+= 0.2;
     }
 }
 </string>

@@ -28,7 +28,7 @@
             <string>/// Set fixed rotation
 event_inherited();
 
-spd = 20; // to make 2
+spd = 2; // to make 2 for debugging game 20 or more
 
 hspd = 0;
 vspd = 0;
@@ -148,6 +148,35 @@ if(obj_player_stats.hp &lt;= 0) //and lives&lt;=0
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_door_2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Collision
+instance_destroy();
+if (room_exists(other.new_room))
+{
+    room_goto(other.new_room);
+}
+//room_goto(rm_win);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_door">
       <action>
         <libid>1</libid>
@@ -217,9 +246,9 @@ with (obj_player_stats)
         stamina += 2.5;
         maxstamina += 2.5;
         attack += 0.75;
+        hp = maxhp;
+        stamina = maxstamina
     }
-    hp = maxhp;
-    stamina = maxstamina
 }
 </string>
           </argument>
