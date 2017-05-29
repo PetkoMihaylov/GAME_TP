@@ -225,6 +225,7 @@
     <sprite>sprites\spr_player4_right</sprite>
     <sprites name="group">
       <sprite>sprites\spr_fireball</sprite>
+      <sprite>sprites\spr_magicball</sprite>
     </sprites>
     <sprite>sprites\sprite184</sprite>
     <sprites name="WALLS AND OTHERS">
@@ -259,6 +260,7 @@
     <background>background\background4</background>
     <background>background\background5</background>
     <background>background\background6</background>
+    <background>background\background7</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -393,6 +395,7 @@
     </objects>
     <objects name="group">
       <object>objects\obj_fireball</object>
+      <object>objects\obj_magicball</object>
       <object>objects\fiev</object>
       <object>objects\object58</object>
       <object>objects\obj_score</object>

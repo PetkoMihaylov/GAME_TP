@@ -233,9 +233,9 @@ if( state != scr_enemy_stall_state)
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>32,32</point>
-    <point>96,32</point>
-    <point>96,48</point>
-    <point>32,48</point>
+    <point>6,6</point>
+    <point>20,6</point>
+    <point>20,12</point>
+    <point>6,12</point>
   </PhysicsShapePoints>
 </object>
