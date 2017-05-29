@@ -92,17 +92,92 @@ alarm[3] = 20;
 y += lengthdir_y(speed, angle);
 
 var enemy = collision_circle( x, y, 2, obj_enemy_slime, false, true );
+
+
 if !instance_exists(enemy)
 enemy = collision_circle( x, y, 2, obj_enemy_slime_2, false, true );
+
 if !instance_exists(enemy)
 enemy = collision_circle( x, y, 2, obj_enemy_slime_boss, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_crocodile_boss, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_crocodile_minion, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_fly_1, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_crab1, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_crab2, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_spider, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_lizard, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_tree_boss, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_fly_2, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_fly_3, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_fly_4, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_fly_boss, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_crocodile_minion_2, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_crocodile_minion_3, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime1_2, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime1_3, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime2_1, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime2_2, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime_3_1, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime3_2, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime4, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime4_1, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime4_2, false, true );
+
+if !instance_exists(enemy)
+enemy = collision_circle( x, y, 2, obj_enemy_slime_3, false, true );
 
 if instance_exists(enemy)    
 {
     var hero = instance_find(object11,1);
     var stats = instance_find(obj_player_stats_2,1);
 
-    enemy.hp -= global.spelldamage; //stats.spelldamage;
+    enemy.hp -= global.spelldamage/2; //stats.spelldamage;
     instance_destroy();
 
 }

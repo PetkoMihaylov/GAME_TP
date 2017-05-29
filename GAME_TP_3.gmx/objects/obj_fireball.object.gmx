@@ -122,7 +122,7 @@ if !instance_exists(enemy)
 enemy = collision_circle( x, y, 2, obj_lizard, false, true );
 
 if !instance_exists(enemy)
-enemy = collision_circle( x, y, 2, obj_tree, false, true );
+enemy = collision_circle( x, y, 2, obj_tree_boss, false, true );
 
 if !instance_exists(enemy)
 enemy = collision_circle( x, y, 2, obj_fly_2, false, true );
