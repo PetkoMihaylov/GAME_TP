@@ -169,8 +169,8 @@ if(obj_player_stats.hp &lt;= 0) //and lives&lt;=0
 if (room_exists(other.new_room))
 {
     room_goto(other.new_room);
-    x = global.new_x;
-    y = global.new_y;
+    x = other.new_x;
+    y = other.new_y;
 }
 </string>
           </argument>
