@@ -56,10 +56,10 @@ global.create_char = 0;</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_door" x="544" y="0" name="inst_6978DE17" locked="0" code="new_room = rm_one;&#xA;new_x = room_width - 64;&#xA;new_y = room_height - 52;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="544" y="0" name="inst_6978DE17" locked="0" code="new_room = rm_five;&#xA;new_x = room_width - 64;&#xA;new_y = room_height - 52;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall3" x="0" y="64" name="inst_0D0E17BF" locked="0" code="" scaleX="1" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="cursor_object" x="32" y="32" name="inst_A38A3700" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="608" y="640" name="inst_25DEF093" locked="0" code="new_room = rm_three;&#xA;new_x = room_width - 64;&#xA;new_y = room_height - 604;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="608" y="640" name="inst_25DEF093" locked="0" code="new_room = rm_seven;&#xA;new_x = room_width - 64;&#xA;new_y = room_height - 604;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="pause_object" x="128" y="64" name="inst_5656D1B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall3" x="0" y="160" name="inst_25A251AB" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall3" x="0" y="96" name="inst_BC1A2BD5" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>

@@ -28,7 +28,7 @@
             <string>///Initialize the slime
 event_inherited();
 image_speed = .1;
-spd = 1.5;
+spd = 1.35;
 
 state = scr_enemy_idle_state;
 //really important enemy movement Vvvvv
@@ -36,7 +36,8 @@ alarm[0] = room_speed*irandom_range(2, 5);
 
 //damage = 10;
 hp = 22;
-sight = 100;
+damage = 2.5;
+sight = 96;
 targetx = 0;
 targety = 0;
 </string>
@@ -64,7 +65,10 @@ targety = 0;
             <string>/// Create experience
 
 instance_create(x, y, obj_expr);
-
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
 
 // Drop a health pack
 if (scr_chance(.5))
@@ -72,6 +76,62 @@ if (scr_chance(.5))
     instance_create(x + random_range(-4, 4), y + random_range(-4, 4), obj_health);
 }
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>201</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_create_object</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>10</kind>
+            <object>obj_enemy_slime4</object>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>201</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_create_object</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>10</kind>
+            <object>obj_enemy_slime_3_1</object>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>

@@ -65,7 +65,11 @@ targety = 0;
             <string>/// Create experience
 
 instance_create(x, y, obj_expr);
-
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
 
 // Drop a health pack
 if (scr_chance(.5))

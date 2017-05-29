@@ -252,6 +252,7 @@
       <sprite>sprites\spr_aphrodite_right</sprite>
       <sprite>sprites\spr_heading</sprite>
     </sprites>
+    <sprite>sprites\sprite212</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -262,6 +263,8 @@
     <background>background\background5</background>
     <background>background\background6</background>
     <background>background\background7</background>
+    <background>background\background8</background>
+    <background>background\background9</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -300,6 +303,7 @@
       <object>objects\object11</object>
       <object>objects\obj_floor2</object>
       <object>objects\obj_wall3</object>
+      <object>objects\obj_wall_invisible</object>
       <object>objects\obj_wall</object>
       <object>objects\obj_view</object>
       <object>objects\obj_dash_effect</object>
@@ -322,7 +326,7 @@
       <object>objects\obj_crab2</object>
       <object>objects\obj_spider</object>
       <object>objects\obj_lizard</object>
-      <object>objects\obj_tree</object>
+      <object>objects\obj_tree_boss</object>
       <object>objects\obj_fly_2</object>
       <object>objects\obj_fly_3</object>
       <object>objects\obj_fly_4</object>
@@ -382,6 +386,7 @@
       <object>objects\sound_object</object>
       <object>objects\load_object</object>
       <object>objects\save_object</object>
+      <object>objects\obj_finale</object>
     </objects>
     <objects name="character_select">
       <object>objects\object21</object>
@@ -411,6 +416,7 @@
     <room>rooms\rm_contols</room>
     <room>rooms\rm_options</room>
     <room>rooms\dead_room</room>
+    <room>rooms\rm_win</room>
     <room>rooms\rm_one</room>
     <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>

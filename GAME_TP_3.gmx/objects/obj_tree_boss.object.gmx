@@ -27,17 +27,17 @@
             <kind>1</kind>
             <string>///Initialize the slime
 event_inherited();
-image_speed = .1;
-spd = 1;
+image_speed = .15;
+spd = 0.9;
 
 state = scr_enemy_idle_state;
 //really important enemy movement Vvvvv
-alarm[0] = room_speed*irandom_range(2, 5);
+alarm[0] = room_speed*irandom_range(2, 6);
 
-hp = 30;
+hp = 60;
 
-sight = 55;
-damage = 2;
+sight = 75;
+damage = 5;
 targetx = 0;
 targety = 0;
 </string>
@@ -64,6 +64,20 @@ targety = 0;
             <kind>1</kind>
             <string>/// Create experience
 
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
+instance_create(x, y, obj_expr);
 instance_create(x, y, obj_expr);
 
 
