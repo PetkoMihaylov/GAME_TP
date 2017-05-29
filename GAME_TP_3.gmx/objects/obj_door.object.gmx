@@ -26,8 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>/// Initialize the door
-new_x = 0;
-new_y = 0;
+new_x = x;
+new_y = y + 32;
 new_room = noone;
 </string>
           </argument>

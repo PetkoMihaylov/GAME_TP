@@ -404,20 +404,20 @@
   <rooms name="rooms">
     <room>rooms\rm_start</room>
     <room>rooms\room_menu</room>
-    <room>rooms\dead_room</room>
-    <room>rooms\rm_one</room>
-    <room>rooms\rm_two</room>
-    <room>rooms\rm_five</room>
-    <room>rooms\rm_six</room>
-    <room>rooms\rm_seven</room>
-    <room>rooms\rm_three0</room>
     <room>rooms\character_select</room>
     <room>rooms\ingame_menu</room>
     <room>rooms\rm_contols</room>
     <room>rooms\rm_options</room>
-    <room>rooms\rm_two_ama_ne</room>
+    <room>rooms\dead_room</room>
+    <room>rooms\rm_one</room>
+    <room>rooms\rm_two</room>
     <room>rooms\rm_three</room>
     <room>rooms\rm_four</room>
+    <room>rooms\rm_five</room>
+    <room>rooms\rm_six</room>
+    <room>rooms\rm_seven</room>
+    <room>rooms\rm_three0</room>
+    <room>rooms\rm_two_ama_ne</room>
     <room>rooms\room13</room>
   </rooms>
   <help>

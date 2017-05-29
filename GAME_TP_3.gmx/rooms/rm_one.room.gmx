@@ -14,7 +14,9 @@
     instance_create(32, 36,obj_player);
 if(global.select == 2 &amp;&amp; global.create_char = 1)
     instance_create(32, 36,object11);
-
+global.new_x = 32;
+global.new_y = 32;
+    
 global.create_char = 0;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>

@@ -14,7 +14,8 @@
     instance_create(32, 36,obj_player);
 if(global.select == 2 &amp;&amp; global.create_char = 1)
     instance_create(32, 36,object11);
-
+    global.new_x = 544;
+    global.new_y = 32;
 global.create_char = 0;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
@@ -183,6 +184,8 @@ global.create_char = 0;</code>
     <instance objName="obj_enemy_slime2_2" x="352" y="576" name="inst_D343AFD4" locked="0" code="" scaleX="1.83333337306976" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime1_3" x="352" y="512" name="inst_E2C712D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime1_3" x="480" y="512" name="inst_3417022E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="pause_object" x="416" y="64" name="inst_077FD222" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_view" x="384" y="96" name="inst_74BB245C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
