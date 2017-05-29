@@ -250,6 +250,7 @@
       <sprite>sprites\spr_flower</sprite>
       <sprite>sprites\spr_aphrodite_left</sprite>
       <sprite>sprites\spr_aphrodite_right</sprite>
+      <sprite>sprites\spr_heading</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -350,6 +351,7 @@
       <object>objects\start_object</object>
       <object>objects\deaed_screen_obj</object>
       <object>objects\restart_object</object>
+      <object>objects\obj_heading</object>
       <object>objects\cursor_object</object>
       <objects name="controls">
         <objects name="keys">
