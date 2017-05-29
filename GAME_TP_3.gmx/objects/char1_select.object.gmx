@@ -55,7 +55,7 @@ with (char_selected)
    {
     instance_destroy();
    }
-instance_create(576,256,char_selected);
+instance_create(448,320,char_selected);
 
 </string>
           </argument>

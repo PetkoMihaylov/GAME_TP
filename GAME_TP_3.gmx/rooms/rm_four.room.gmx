@@ -178,6 +178,8 @@ global.create_char = 0;</code>
     <instance objName="obj_enemy_slime1_3" x="224" y="96" name="inst_051710E1" locked="0" code="" scaleX="1.83333337306976" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_crocodile_minion_3" x="416" y="544" name="inst_B5327028" locked="0" code="" scaleX="0.349999994039536" scaleY="0.349999994039536" colour="4294967295" rotation="0"/>
     <instance objName="obj_crocodile_minion_3" x="96" y="192" name="inst_2C217D9A" locked="0" code="" scaleX="0.375" scaleY="0.649999976158142" colour="4294967295" rotation="0"/>
+    <instance objName="obj_view" x="544" y="64" name="inst_2636ABE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="pause_object" x="544" y="96" name="inst_6DD1C4D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="224" y="192" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_47D6D07B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
