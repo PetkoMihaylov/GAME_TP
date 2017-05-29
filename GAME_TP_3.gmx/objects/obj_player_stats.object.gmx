@@ -33,7 +33,7 @@ if(global.select == 1)
     maxhp = hp;
     stamina = 10;
     maxstamina = stamina;
-    
+    //spd = 20; // to comment
     expr = 0;
     maxexpr = 3;
     

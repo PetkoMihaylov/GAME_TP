@@ -28,7 +28,7 @@
             <string>/// Set fixed rotation
 event_inherited();
 
-spd = 2;
+spd = 20; // to make 2
 
 hspd = 0;
 vspd = 0;
