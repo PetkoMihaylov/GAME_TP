@@ -61,7 +61,7 @@ global.create_char = 0;</code>
     <instance objName="obj_sign" x="96" y="192" name="inst_5043C45A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime" x="320" y="576" name="inst_4EBFECFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cursor_object" x="32" y="32" name="inst_A38A3700" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="544" y="608" name="inst_25DEF093" locked="0" code="new_room = rm_seven;&#xA;new_x = 64;&#xA;new_y = 36;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="544" y="608" name="inst_25DEF093" locked="0" code="new_room = rm_two;&#xA;new_x = 64;&#xA;new_y = 36;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="pause_object" x="128" y="64" name="inst_5656D1B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_stats_2" x="160" y="32" name="inst_C6D197F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime_2" x="352" y="160" name="inst_1EFC0639" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
