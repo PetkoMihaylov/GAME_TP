@@ -40,6 +40,7 @@ if(global.select == 1)
     level = 1;
     
     attack = 1;
+    attack2 = attack*3;
 }
 </string>
           </argument>
@@ -170,7 +171,7 @@ if(global.select == 1)
     draw_set_font(level_font);
     draw_text(17, 33,"Lv " + string(level) );
     draw_set_font(-1);
-    draw_set_colour(c_green);
+    draw_set_colour(c_white);
 }
 </string>
           </argument>
