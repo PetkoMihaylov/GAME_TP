@@ -73,7 +73,7 @@ global.create_char = 0;</code>
     <instance objName="obj_enemy_slime_3_1" x="384" y="576" name="inst_458F8212" locked="0" code="" scaleX="3.16666674613953" scaleY="4.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor2" x="320" y="128" name="inst_73AF27A8" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor2" x="288" y="608" name="inst_D6C6903C" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor2" x="480" y="608" name="inst_4FD32652" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_floor2" x="480" y="608" name="inst_4FD32652" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor2" x="512" y="608" name="inst_E9CC40B7" locked="0" code="" scaleX="0.100000001490116" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor2" x="544" y="608" name="inst_50897693" locked="0" code="" scaleX="0.100000001490116" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor2" x="0" y="512" name="inst_A3B24E54" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
@@ -172,8 +172,8 @@ global.create_char = 0;</code>
     <instance objName="obj_floor2" x="64" y="128" name="inst_11424ABB" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor2" x="96" y="128" name="inst_C8A5F145" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime1_2" x="576" y="384" name="inst_84CF600C" locked="0" code="" scaleX="1.83333337306976" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_slime1_2" x="544" y="512" name="inst_3A650A83" locked="0" code="" scaleX="1.83333337306976" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_slime2_1" x="512" y="416" name="inst_10E36391" locked="0" code="" scaleX="1.83333337306976" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_slime1_2" x="544" y="544" name="inst_3A650A83" locked="0" code="" scaleX="1.83333337306976" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_slime2_1" x="512" y="448" name="inst_10E36391" locked="0" code="" scaleX="1.83333337306976" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime2_1" x="192" y="288" name="inst_2777386A" locked="0" code="" scaleX="1.83333337306976" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime2_1" x="96" y="416" name="inst_C229941E" locked="0" code="" scaleX="1.83333337306976" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime_3_1" x="160" y="512" name="inst_7DF5B4AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
