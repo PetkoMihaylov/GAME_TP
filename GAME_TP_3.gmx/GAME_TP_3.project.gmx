@@ -240,10 +240,15 @@
       <sprite>sprites\spr_lava_floor3</sprite>
       <sprite>sprites\spr_floor3</sprite>
       <sprite>sprites\spr_floor4</sprite>
+      <sprite>sprites\sprite_grass</sprite>
+      <sprite>sprites\spr_leaves</sprite>
+      <sprite>sprites\spr_leaves2</sprite>
     </sprites>
     <sprite>sprites\sprite202</sprite>
     <sprites name="dsad">
       <sprite>sprites\spr_flower</sprite>
+      <sprite>sprites\spr_aphrodite_left</sprite>
+      <sprite>sprites\spr_aphrodite_right</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -402,7 +407,7 @@
     <room>rooms\rm_five</room>
     <room>rooms\rm_six</room>
     <room>rooms\rm_seven</room>
-    <room>rooms\rm_three</room>
+    <room>rooms\rm_three0</room>
     <room>rooms\character_select</room>
     <room>rooms\ingame_menu</room>
     <room>rooms\rm_contols</room>
