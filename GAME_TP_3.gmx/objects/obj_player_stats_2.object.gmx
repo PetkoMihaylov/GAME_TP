@@ -45,10 +45,10 @@ if(global.select == 2)
     
     //Spell
     global.spell = obj_fireball;
-    global.spellcost = 6;
+    global.spellcost = 3;
     
     global.attack = 1;
-    global.spelldamage = 2.5;
+    global.spelldamage = 1;
 }
 
 </string>

@@ -269,7 +269,7 @@ with (obj_player_stats)
         global.mana += 4;
         global.maxmana += 4;
         global.attack += 0.75;
-        global.spelldamage += 2;
+        global.spelldamage += 0.75;
         //global.spelldamage_two += 1
         global.hp = global.maxhp;
         global.mana = global.maxmana;
